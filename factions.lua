@@ -201,7 +201,7 @@
 	},
 
 	179102 = {
-		name="...制裁者",
+		name="...The Punisher",
 		primaries=1,
 		color0=0x4232c9,
 	},
@@ -213,12 +213,12 @@
 	},
 
 	179101 = {
-		name="宇宙中心......",
+		name="Center of the universe......",
 		primaries=1,
 	}
 
 	17998 = {
-		name=_("捕风者"),
+		name=_("Wind Catcher"),
     	playable=2,
 		primaries=3,
 		start="17998_丝雀",
@@ -231,7 +231,7 @@
 	},
 
 	17919 = {
-		name="^1失落者文明^7",
+		name="^1The Lost Civilization^7",
 		playable=2,
 		start="",
 		primaries=3,
