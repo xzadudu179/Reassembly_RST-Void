@@ -1,0 +1,28 @@
+
+{
+	#include"blocks/7357.lua"--test
+	--#include"blocks/17900.lua"--海军
+	#include"blocks/17901.lua"--冰族
+	#include"blocks/17902.lua"--人类星际联合国[HIUN]
+	--#include"blocks/17903.lua"--群星之目
+	#include"blocks/17904.lua"--菌类
+	#include"blocks/17905.lua"--军团
+	#include"blocks/17906.lua"--复活者
+	#include"blocks/17907.lua"--虚空之影
+	--#include"blocks/17908.lua"--星际联合矿业
+	#include"blocks/17910.lua"--鬼魂
+	--#include"blocks/17911.lua"--朝圣者
+	#include"blocks/17912.lua"--坚钢
+	--#include"blocks/17913.lua"--水生植物
+	#include"blocks/17914.lua"--泰拉族
+	#include"blocks/17915.lua"--子系统-膂
+	#include"blocks/17916.lua"--FXTY100101
+	--#include"blocks/17918.lua"--利维坦
+	#include"blocks/17922.lua"--灵戌
+	#include"blocks/17925.lua"--???
+	#include"blocks/17997.lua"--母巢意识
+	#include"blocks/17998.lua"--[联动]捕风者
+	#include"blocks/17919.lua"--¿失¿落¿者¿文¿明¿
+	#include"blocks/179279.lua"--???
+	#include"blocks/17927357.lua"--???
+},
