@@ -2,12 +2,12 @@
 ## <font face="blocks5"><font color=#7AA9CC>Reassembly-RST-Void</font></font>
 <font color=#7AA9CC>An REA *(Reassembly)* mod made by my self</font>
 ## 前言
-### <font color=#CC3333>**警告：该种族并没有完善英文翻译，所有在 blocks 文件夹内的 .lua 文件出现的方块若有中文名称，都需要改成英文，并且目前已修改的英文几乎是通过机翻翻译的。**</font>
-<font color=#AA1111>TEXT</font>  
+<font color=#CC3333>**警告：该种族并没有完善英文翻译，所有在 blocks 文件夹内的 .lua 文件出现的方块若有中文名称，都需要改成英文，并且目前已修改的英文几乎是通过机翻翻译的。**</font>  
+<font color=#AA1111>**TEXT**</font>  
 这个mod主要是用于生涯，以及娱乐，并不属于外貌型或强度型 mod。由于刚刚做出这个 mod 时我还是个萌新，会有很多需要改进的地方，我会在以后慢慢地补充。  
 Text
 ## 内容简介  
-### Text
+**Text**  
 RST-重组-虚空是一个多种族的长期更新的游戏 mod，基于游戏 Reassembly 制作，由于该游戏制作mod极为简单，所以可以在 README 中就写下游戏 mod 一些零件或者种族的制作方法~  
 Text
 
@@ -143,15 +143,18 @@ Text
         },
 	}
 ```
-### <font color = #CC4444>注意：自定义形状的端点从第一个端点开始往后进行渲染，需要以顺时针方向按顺序写出各端点的坐标，不出现凹形状，并且小于 32 个端点时，游戏才能正确地渲染出这个形状（原版的 CANNON2 形状虽然是凹的但是渲染没有问题，原因是游戏使用了另一种渲染方式）。</font>
-<font color = #AA3333>TEXT</font>  
+<font color = #CC4444> **注意：自定义形状的端点从第一个端点开始往后进行渲染，需要以顺时针方向按顺序写出各端点的坐标，不出现凹形状，并且小于 32 个端点时，游戏才能正确地渲染出这个形状（原版的 CANNON2 形状虽然是凹的但是渲染没有问题，原因是游戏使用了另一种渲染方式）。** </font>
+<font color = #AA3333> **TEXT** </font>  
 
 游戏内长度单位为：1单位 = 1/10 SQUARE (scale1) 形状长度（也就是原版1x1大小的基础方块的长度）  
 Text  
+
 创建对称自定义形状时最好保证对称轴为X轴，否则非常容易出现框选镜像时零件断开的情况（不保证对称也有解决办法，就是制作一个镜像的形状并且在blocks里加上镜像的形状）  
 Text  
+
 游戏内形状计算精准度为小数点后六位。  
 Text  
+
 下面是接点的属性：  
 Text  
 |   **Name**   	|          **Effect**          	|
@@ -165,7 +168,7 @@ Text
 |   LAUNCHER   	|         Missile Mount        	|
 |     ROOT     	| ROOT ENVIRONMENTAL connector 	|
 
-如果需要镜像形状，可以使用：  
+如果需要镜像形状，可以使用`mirror_of`：  
 Text  
 ```lua
 {
