@@ -1,9 +1,9 @@
 # RST-重组-虚空
-## <font face="blocks5"><font color=#7AA9CC>Reassembly-RST-Void</font></font>
-<font color=#7AA9CC>An REA *(Reassembly)* mod made by my self</font>
+## Reassembly-RST-Void
+An REA *(Reassembly)* mod made by my self
 ## 前言
-<font color=#CC3333>**警告：该种族并没有完善英文翻译，所有在 blocks 文件夹内的 .lua 文件出现的方块若有中文名称，都需要改成英文，并且目前已修改的英文几乎是通过机翻翻译的。**</font>  
-<font color=#AA1111>**TEXT**</font>  
+**警告：该种族并没有完善英文翻译，所有在 blocks 文件夹内的 .lua 文件出现的方块若有中文名称，都需要改成英文，并且目前已修改的英文几乎是通过机翻翻译的。**  
+**TEXT**  
 
 这个mod主要是用于生涯，以及娱乐，并不属于外貌型或强度型 mod。由于刚刚做出这个 mod 时我还是个萌新，会有很多需要改进的地方，我会在以后慢慢地补充。  
 Text
@@ -25,30 +25,30 @@ Text
 Text
 | **Ident** 	|                 **Name**                	|     **Playable**     	|      **Start**      	| **Primaries** 	| **Color0** 	                            | **Color1** 	                            | **Color2** 	                            | **Thrust SFX** 	| **Explosion Color0** 	                            | **Explosion Color1** 	                            |
 |:---------:	|:---------------------------------------:	|:--------------------:	|:-------------------:	|:-------------:	|:-------------------------------------:	|:-------------------------------------:	|:---------------------------------------:  |:--------------:	|:--------------------:	                            |:--------------------:	                            |
-|   17904   	|                  Fungi                  	| Always Unlockable(2) 	|      17904_战菌     	|       0       	|      /     	                            |      /     	                            |      /     	                            |      False     	|       <font color=#bdc7c3>0xbdc7c3</font>       	|       <font color=#677c74>0x677c74</font>       	|
-|   17905   	|                  Legion                 	| Always Unlockable(2) 	|    17905_萨蒂安I    	|       2       	|  <font color=#5fead1>0x5fead1</font>  	|  <font color=#393a3a>0x393a3a</font>  	|      /     	                            |      False     	|           /          	                            |           /                                   	|
-|   17902   	| Human interstellar United Nations(HIUN) 	| Always Unlockable(2) 	|    17902_镧侦查机   	|       3       	|  <font color=#767676>0x767676</font>  	|  <font color=#00d6ff>0x00d6ff</font>  	|  <font color=#2e2e2e>0x2e2e2e</font> 	    |      False     	|           /          	                            |           /                                   	|
-|   17907   	|            Shadow of the Void           	| Always Unlockable(2) 	|  17907_^6虚空毁灭者 	|       3       	|  <font color=#3e3e3e>0x3e3e3e</font>  	|  <font color=#75677c>0x75677c</font>  	|  <font color=#d14fed>0xd14fed</font> 	     |      True      	|           /          	                            |           /                                   	|
-|   17901   	|                   ICE                   	|    Not playable(0)   	|          /          	|       2       	|  <font color=#787d92>0x787d92</font>  	|  <font color=#9db5c5>0x9db5c5</font>  	|      /     	                            |      False     	|       <font color=#c1f7ff>0xc1f7ff</font>       	|       <font color=#f8feff>0xf8feff</font>       	|
-|   17910   	|                  Ghost                  	|    Not playable(0)   	|          /          	|       2       	|  <font color=#656565>0x656565</font>  	|  <font color=#c5c5c5>0xc5c5c5</font>  	|      /     	                            |      False     	|           /          	                            |           /          	                            |
-|   17912   	|                Admantite                	|    Not playable(0)   	|          /          	|       2       	|  <font color=#d47351>0xd47351</font>  	|  <font color=#999999>0x999999</font>  	|      /     	                            |      False     	|           /          	                            |           /          	                            |
-|   17914   	|                  Terra                  	| Always Unlockable(2) 	| 17914_^6守护者-火种 	|       3       	|  <font color=#4b220d>0x4b220d</font>  	|  <font color=#17c47c>0x17c47c </font> 	|  <font color=#7e8a87>0x7e8a87</font>  	|      False     	|           /          	                            |           /          	                            |
-|   17906   	|               Revitalizer               	| Always Unlockable(2) 	|     17906_拾光者    	|       2       	|  <font color=#e17411>0xe17411</font>  	|  <font color=#b3b3b3>0xb3b3b3</font>  	|      /     	                            |      False     	|           /          	                            |           /          	                            |
-|   17915   	|                Backbones                	| Always Unlockable(2) 	| 17915_“锥”战机EXTRA 	|       3       	|  <font color=#696969>0x696969</font>  	|  <font color=#02a300>0x02a300</font>  	|  <font color=#bbbbbb>0xbbbbbb</font>   	|      False     	|       <font color=#ff7000>0xff7000       	        |       <font color=#c5f3fd>0xc5f3fd       	        |
-|   17916   	|                FXTY100101               	| Always Unlockable(2) 	|   17916_^2MILK系统  	|       2       	|  <font color=#5a9085>0x5a9085</font>  	|  <font color=#0a8d12>0x0a8d12</font>  	|      /     	                            |      False     	|       <font color=#84ff67>0x84ff67       	|       <font color=#dcffd4>0xdcffd4       	                |
-|   17922   	|          Ectoplasm Lairdweller          	| Always Unlockable(2) 	| 17922_^4巢雏-碎片^7 	|       3       	|  <font color=#0098ff>0x0098ff</font>  	|  <font color=#1f1f1f>0x1f1f1f</font>  	|  <font color=#b40000>0xb40000</font>  	|      False     	|       <font color=#0077c8>0x0077c8</font>       	|       <font color=#b40000>0xb40000</font>       	|
-|   17997   	|       3X-A Hatchery Consciousness       	|    Not playable(0)   	| 17997_X-A星云改装型 	|       3       	|  <font color=#f0f0f0>0xf0f0f0</font>  	|  <font color=#ff7500>0xff7500</font>  	|  <font color=#262626>0x262626</font>  	|      False     	|           /          	                            |           /                                   	|
-|   179102  	|             ...The Punisher             	|    Not playable(0)   	|          /          	|       1       	|  <font color=#4232c9>0x4232c9</font>   	|      /     	                            |      /     	                            |      False     	|           /                                   	|           /                                   	|
-|   179103  	|                 ...00KF                 	|    Not playable(0)   	|          /          	|       1       	|  <font color=#4232c9>0x4232c9</font>   	|      /     	                            |      /     	                            |      False     	|           /          	                            |           /          	                            |
+|   17904   	|                  Fungi                  	| Always Unlockable(2) 	|      17904_战菌     	|       0       	|      /     	                            |      /     	                            |      /     	                            |      False     	|       0xbdc7c3       	|       0x677c74       	|
+|   17905   	|                  Legion                 	| Always Unlockable(2) 	|    17905_萨蒂安I    	|       2       	|  0x5fead1  	|  0x393a3a  	|      /     	                            |      False     	|           /          	                            |           /                                   	|
+|   17902   	| Human interstellar United Nations(HIUN) 	| Always Unlockable(2) 	|    17902_镧侦查机   	|       3       	|  0x767676  	|  0x00d6ff  	|  0x2e2e2e 	    |      False     	|           /          	                            |           /                                   	|
+|   17907   	|            Shadow of the Void           	| Always Unlockable(2) 	|  17907_^6虚空毁灭者 	|       3       	|  0x3e3e3e  	|  0x75677c  	|  0xd14fed 	     |      True      	|           /          	                            |           /                                   	|
+|   17901   	|                   ICE                   	|    Not playable(0)   	|          /          	|       2       	|  0x787d92  	|  0x9db5c5  	|      /     	                            |      False     	|       0xc1f7ff       	|       0xf8feff       	|
+|   17910   	|                  Ghost                  	|    Not playable(0)   	|          /          	|       2       	|  0x656565  	|  0xc5c5c5  	|      /     	                            |      False     	|           /          	                            |           /          	                            |
+|   17912   	|                Admantite                	|    Not playable(0)   	|          /          	|       2       	|  0xd47351  	|  0x999999  	|      /     	                            |      False     	|           /          	                            |           /          	                            |
+|   17914   	|                  Terra                  	| Always Unlockable(2) 	| 17914_^6守护者-火种 	|       3       	|  0x4b220d  	|  0x17c47c  	|  0x7e8a87  	|      False     	|           /          	                            |           /          	                            |
+|   17906   	|               Revitalizer               	| Always Unlockable(2) 	|     17906_拾光者    	|       2       	|  0xe17411  	|  0xb3b3b3  	|      /     	                            |      False     	|           /          	                            |           /          	                            |
+|   17915   	|                Backbones                	| Always Unlockable(2) 	| 17915_“锥”战机EXTRA 	|       3       	|  0x696969  	|  0x02a300  	|  0xbbbbbb   	|      False     	|       0xff7000       	        |       0xc5f3fd       	        |
+|   17916   	|                FXTY100101               	| Always Unlockable(2) 	|   17916_^2MILK系统  	|       2       	|  0x5a9085  	|  0x0a8d12  	|      /     	                            |      False     	|       0x84ff67       	|       0xdcffd4       	                |
+|   17922   	|          Ectoplasm Lairdweller          	| Always Unlockable(2) 	| 17922_^4巢雏-碎片^7 	|       3       	|  0x0098ff  	|  0x1f1f1f  	|  0xb40000  	|      False     	|       0x0077c8       	|       0xb40000       	|
+|   17997   	|       3X-A Hatchery Consciousness       	|    Not playable(0)   	| 17997_X-A星云改装型 	|       3       	|  0xf0f0f0  	|  0xff7500  	|  0x262626  	|      False     	|           /          	                            |           /                                   	|
+|   179102  	|             ...The Punisher             	|    Not playable(0)   	|          /          	|       1       	|  0x4232c9   	|      /     	                            |      /     	                            |      False     	|           /                                   	|           /                                   	|
+|   179103  	|                 ...00KF                 	|    Not playable(0)   	|          /          	|       1       	|  0x4232c9   	|      /     	                            |      /     	                            |      False     	|           /          	                            |           /          	                            |
 |   179101  	|       Center of the universe......      	|    Not playable(0)   	|          /          	|       1       	|      /     	|      /     	|      /     	|                                                         /                         |      False     	|           /          	                            |           /          	                            |
-|   17998   	|               Wind Catcher              	| Always Unlockable(2) 	|      17998_丝雀     	|       3       	|  <font color=#ededed>0xededed</font>  	|  <font color=#d696ba>0xd696ba</font>  	|  <font color=#d65799>0xd65799</font>  	|      False     	|       <font color=#e7b1cf>0xe7b1cf</font>       	|       <font color=#ededed>0xededed</font>       	|
-|   17919   	|          The Lost Civilization          	| Always Unlockable(2) 	|     Nothing now     	|       3       	|  <font color=#1a285f>0x1a285f</font>  	|  <font color=#2e5969>0x2e5969</font>  	|  <font color=#e0e1ce>0xe0e1ce</font>  	|      False     	|           /                                   	|           /                                   	|
+|   17998   	|               Wind Catcher              	| Always Unlockable(2) 	|      17998_丝雀     	|       3       	|  0xededed  	|  0xd696ba  	|  0xd65799  	|      False     	|       0xe7b1cf       	|       0xededed       	|
+|   17919   	|          The Lost Civilization          	| Always Unlockable(2) 	|     Nothing now     	|       3       	|  0x1a285f  	|  0x2e5969  	|  0xe0e1ce  	|      False     	|           /                                   	|           /                                   	|
 
 这些数据代表了种族的名称，颜色，性格一类。它们都是会在游戏里用到的信息，如果要知道更加详细（符合 mod 语法）的信息，可以去 factions.lua 查看。
 
 -------------------
 
-## <font color=#DD8822>关于游戏mod制作：</font>  
+## 关于游戏mod制作：  
 Text  
 Reassembly 官方有出过制作 mod 的教程，链接如下：   
 Text  
@@ -113,7 +113,7 @@ Text
     turretSpeed=7,                              --Rotating speed (radian/s)
 },
 ```
-这段代码展示了 <font color=#0a8d12>FXTY100101</font> 种族的火炮模块， 其中除了方块的基础参数外还有通过 <font color=#DD8833>features</font> 添加的特殊参数。  
+这段代码展示了 **FXTY100101** 种族的火炮模块， 其中除了方块的基础参数外还有通过 **features** 添加的特殊参数。  
 Text  
 
 所有 blocks 参数的作用均可在 Reassembly 文档内找到，防止文档过长就不写啦。  
@@ -148,8 +148,8 @@ Text
         },
 	}
 ```
-<font color = #CC4444> **注意：自定义形状的端点从第一个端点开始往后进行渲染，需要以顺时针方向按顺序写出各端点的坐标，不出现凹形状，并且小于 32 个端点时，游戏才能正确地渲染出这个形状（原版的 CANNON2 形状虽然是凹的但是渲染没有问题，原因是游戏使用了另一种渲染方式）。** </font>  
-<font color = #AA3333> **TEXT** </font>  
+**注意：自定义形状的端点从第一个端点开始往后进行渲染，需要以顺时针方向按顺序写出各端点的坐标，不出现凹形状，并且小于 32 个端点时，游戏才能正确地渲染出这个形状（原版的 CANNON2 形状虽然是凹的但是渲染没有问题，原因是游戏使用了另一种渲染方式）。**   
+**TEXT**   
 
 游戏内长度单位为：1单位 = 1/10 SQUARE (scale1) 形状长度（也就是原版1x1大小的基础方块的长度）  
 Text  
