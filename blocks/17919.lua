@@ -138,7 +138,7 @@
 {
     17919004,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179116,
@@ -156,7 +156,7 @@
 {
     17919005,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179116,
@@ -174,7 +174,7 @@
 {
     17919006,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179116,
@@ -192,7 +192,7 @@
 {
     17919007,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179117,
@@ -210,7 +210,7 @@
 {
     17919008,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179117,
@@ -228,7 +228,7 @@
 {
     17919009,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179117,
@@ -246,7 +246,7 @@
 {
     17919010,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179117,
@@ -264,7 +264,7 @@
 {
     17919011,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179117,
@@ -282,7 +282,7 @@
 {
     17919012,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179117,
@@ -300,7 +300,7 @@
 {
     17919013,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -318,7 +318,7 @@
 {
     17919014,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -336,7 +336,7 @@
 {
     17919015,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -354,7 +354,7 @@
 {
     17919016,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -372,7 +372,7 @@
 {
     17919017,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -390,7 +390,7 @@
 {
     17919018,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -408,7 +408,7 @@
 {
     17919019,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -426,7 +426,7 @@
 {
     17919020,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -444,7 +444,7 @@
 {
     17919021,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1179118,
@@ -462,7 +462,7 @@
 {
     17919022,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1751,
@@ -480,7 +480,7 @@
 {
     17919023,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1751,
@@ -498,7 +498,7 @@
 {
     17919024,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=1751,
@@ -516,7 +516,7 @@
 {
     17919025,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=TRI,
@@ -534,7 +534,7 @@
 {
     17919026,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=TRI,
@@ -552,7 +552,7 @@
 {
     17919027,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=TRI,
@@ -570,7 +570,7 @@
 {
     17919028,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=HEXAGON,
@@ -588,7 +588,7 @@
 {
     17919029,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=HEXAGON,
@@ -606,7 +606,7 @@
 {
     17919030,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=HEXAGON,
@@ -624,7 +624,7 @@
 {
     17919031,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=RIGHT_TRI_30L,
@@ -642,7 +642,7 @@
 {
     17919032,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=RIGHT_TRI_30L,
@@ -660,7 +660,7 @@
 {
     17919033,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=RIGHT_TRI_30L,
@@ -678,7 +678,7 @@
 {
     17919034,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=RIGHT_TRI_30R,
@@ -696,7 +696,7 @@
 {
     17919035,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINESsw,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=RIGHT_TRI_30R,
@@ -714,7 +714,7 @@
 {
     17919036,
     group=17919,
-    features=PALETTE,
+    features=PALETTE|INTLINES,
     name="舱体",
     blurb="仍然保留完好的舱体。",
     shape=RIGHT_TRI_30R,
