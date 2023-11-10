@@ -1041,9 +1041,9 @@
 {
     850043,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RECT,
     scale=1,
     fillColor=0x6c3519,
@@ -1054,16 +1054,15 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
     capacity=0,
 },
 
 {
     850044,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RECT,
     scale=2,
     fillColor=0x6c3519,
@@ -1074,16 +1073,15 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
     capacity=0,
 },
 
 {
     850045,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RECT,
     scale=3,
     fillColor=0x6c3519,
@@ -1094,16 +1092,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850046,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=ADAPTER,
     scale=3,
     fillColor=0x6c3519,
@@ -1114,16 +1112,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850047,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=ADAPTER,
     scale=2,
     fillColor=0x6c3519,
@@ -1134,16 +1132,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850048,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=ADAPTER,
     scale=1,
     fillColor=0x6c3519,
@@ -1154,16 +1152,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850049,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=SQUARE,
     scale=1,
     fillColor=0x6c3519,
@@ -1174,16 +1172,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850050,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=SQUARE,
     scale=2,
     fillColor=0x6c3519,
@@ -1194,16 +1192,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850051,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=SQUARE,
     scale=3,
     fillColor=0x6c3519,
@@ -1214,16 +1212,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850052,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=1729,
     scale=3,
     fillColor=0x6c3519,
@@ -1234,16 +1232,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850053,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=1729,
     scale=2,
     fillColor=0x6c3519,
@@ -1254,16 +1252,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850054,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=1729,
     scale=1,
     fillColor=0x6c3519,
@@ -1274,16 +1272,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850055,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=1730,
     scale=1,
     fillColor=0x6c3519,
@@ -1294,16 +1292,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850056,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=1730,
     scale=2,
     fillColor=0x6c3519,
@@ -1314,16 +1312,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850057,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=1730,
     scale=3,
     fillColor=0x6c3519,
@@ -1334,16 +1332,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850058,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI,
     scale=3,
     fillColor=0x6c3519,
@@ -1354,16 +1352,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850059,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI,
     scale=2,
     fillColor=0x6c3519,
@@ -1374,16 +1372,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850060,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI,
     scale=1,
     fillColor=0x6c3519,
@@ -1394,16 +1392,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850061,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI2L,
     scale=1,
     fillColor=0x6c3519,
@@ -1414,16 +1412,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850062,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI2L,
     scale=2,
     fillColor=0x6c3519,
@@ -1434,16 +1432,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850063,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI2L,
     scale=3,
     fillColor=0x6c3519,
@@ -1454,16 +1452,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850064,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI2R,
     scale=3,
     fillColor=0x6c3519,
@@ -1474,16 +1472,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850065,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI2R,
     scale=2,
     fillColor=0x6c3519,
@@ -1494,16 +1492,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850066,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=RIGHT_TRI2R,
     scale=1,
     fillColor=0x6c3519,
@@ -1514,16 +1512,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850067,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=TRI,
     scale=1,
     fillColor=0x6c3519,
@@ -1534,16 +1532,16 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 
 {
     850068,
     group=17914,
-    features=PALETTE|MELEE,
+    features=PALETTE|BUMPER,
     name="魔法木",
-    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7(不要问我为什么木头防火石头不防火)",
+    blurb="含有魔力的能量木，虽然脆弱但能够免疫所有的撞击伤害。^3构造等级：^2高^7",
     shape=1740,
     scale=1,
     fillColor=0x6c3519,
@@ -1554,7 +1552,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    meleeDamage=0,
+    
     capacity=0,
 },
 

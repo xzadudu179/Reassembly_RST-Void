@@ -18,20 +18,20 @@
     shroud={
             {size={5,3},
              offset={3, 0, 0.3},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=TRI,
              }
             {size={3,1},
              offset={-1, 0, 0.2},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=SQUARE,
              }
             }
@@ -312,20 +312,20 @@
     shroud={
             {size={5,3},
              offset={3, 0, 0.1},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=TRI,
              }
             {size={3,1},
              offset={-1, 0, 0.05},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=SQUARE,
              }
             }
@@ -356,20 +356,20 @@
     shroud={
             {size={10,6},
              offset={6, 0, 0.1},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=TRI,
              }
             {size={6,2},
              offset={-2, 0, 0.05},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=SQUARE,
              }
             }
@@ -402,20 +402,20 @@
     shroud={
             {size={15,9},
              offset={9, 0, 0.1},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=TRI,
              }
             {size={9,3},
              offset={-3, 0, 0.05},
-             taper=1, 
+             taper=1,
              count=1
-             tri_color_id=1, 
+             tri_color_id=1,
              tri_color1_id=1,
-             line_color_id=2, 
+             line_color_id=2,
             shape=SQUARE,
              }
             }
@@ -837,6 +837,7 @@
     blurb=_("Mucus ejector for repairing teammates"),
     shape=TRI,
     scale=2,
+    sound=fungit,
     fillColor=0x196c6f,
     fillColor1=0x3b626a,-----------------------------------------------------------------
     lineColor=0x60ffcf,
@@ -874,6 +875,7 @@
     points=0,
     barrelCount=1,
     durability=0.7,
+    sound=fungit,
     laser={
         damage=5,
         immobilizeForce=1000000,
@@ -894,8 +896,8 @@
     11799237,
     group=17904,
     features=PALETTE|TRACTOR|ACTIVATE,
-    name="Active Tractor",
-    blurb="A tractor requiring power consumption.",
+    name=_("Active Tractor"),
+    blurb=_("A tractor requiring power consumption."),
     shape=HEXAGON,
     scale=1,
     fillColor=0x196c6f,
@@ -914,8 +916,8 @@
     11799238,
     group=17904,
     features=GENERATOR|PALETTE|NOICON,
-    name="Power storager",
-    blurb="Fungi that can storage energy",
+    name=_("Power storager"),
+    blurb=_("Fungi that can storage energy"),
     shape=HEXAGON,
     scale=1,
     fillColor=0x196c6f,
@@ -1231,6 +1233,7 @@
     name=_("Recombinant mucus ejector"),
     blurb=_("Mucus ejector for repairing teammates"),
     shape=TRI,
+    sound=fungit,
     scale=3,
     fillColor=0x196c6f,
     fillColor1=0x3b626a,
@@ -1261,6 +1264,7 @@
     name=_("mucus ejector"),
     blurb=_("Can kill enemies"),
     shape=TRI,
+    sound=fungit,
     scale=3,
     fillColor=0x196c6f,
     fillColor1=0x3b626a,
@@ -1289,6 +1293,7 @@
     name=_("mucus ejector"),
     blurb=_("Can kill enemies--A lot of mucus is ejected at a time, but it takes cooling time"),
     shape=HEXAGON,
+    sound=fungit,
     scale=1,
     fillColor=0x196c6f,
     fillColor1=0x3b626a,
@@ -1317,6 +1322,7 @@
     name=_("Defense ejector"),
     blurb=_("For point defense"),
     shape=TRI,
+    sound=fungit,
     scale=3,
     fillColor=0x196c6f,
     fillColor1=0x3b626a,
@@ -1393,7 +1399,7 @@
     fillColor=0x196c6f,
     fillColor1=0x3b626a,
     lineColor=0x60ffcf,
-    points=4000,
+    points=900,
     durability=1,
     density=0.05,
     growRate=3,
@@ -1405,6 +1411,7 @@
         name=_("Infective spores"),
         blurb=_("It can penetrate the enemy's hull and directly attack its core"),
         shape=ADAPTER,
+        sound=fungit,
         fillColor=0x546975,
         fillColor1=0x3b626a,
         lineColor=0x60ffcf,
@@ -1767,7 +1774,7 @@
     fillColor1=0x0e4d50
     lineColor=0x6696be,
     growRate=50,
-    points=355,
+    points=751,
     replicateBlock={
         11799275
         group=17904,
@@ -2152,6 +2159,7 @@
     blurb="",
     shape=HEXAGON,
     scale=2,
+    sound=fungit,
     fillColor=0x7f7f7f,
     fillColor1=0x0e4d50
     lineColor=0x60ffcf,
@@ -2176,6 +2184,7 @@
     name=_("fungi"),
     blurb="",
     shape=HEXAGON,
+    sound=fungit,
     scale=1,
     fillColor=0x7f7f7f,
     fillColor1=0x0e4d50

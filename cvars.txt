@@ -45,7 +45,7 @@ kHasDemoButton = 0
 kGeneratePlantFails = 60
 kFieldsDLCEnable = 1
 kFieldsDLCButton = 1
-kFactionUnlockThreshold = 1000
+kFactionUnlockThreshold = 8000
 kButtonCorners = 0.05
 kGalaxyTimestep = 0.5
 kDisruptIndicatorSize = 0.4
@@ -53,7 +53,7 @@ kDisruptIndicatorAlpha = 0.3
 kDopplerFactor = 4z`
 kButtonPad = {2.5,2.5}
 kFileSizeMax = 1048576000
-kEnableDevBindings = 1
+kEnableDevBindings = 0
 kClusterImageSize = {1500,1500}
 kGameName = "^8reassembly^6void\n^1invading"
 kUngrowTime = 1
@@ -86,7 +86,6 @@ kStarSizeRange = {15,20}
 kProjectileParticleSizeCoef = 1.345
 kPortRenderVerts = 6
 kPhysicsDamping = 0.8
-kPlayerFaction = 17902
 kParticleTris = 1
 kPlantTypesPerSector = 80
 kPlantSizeMeanStddev = {100,10}
@@ -111,6 +110,6 @@ kReadZipFiles = 1
 kRedumpShips = 1
 kSplashAnimTime = 5
 kWatchdogTimeout = 1000
-# kRadFrag ={roundsPerSec=28,roundsPerBurst=8,explosive=FRAG_FINAL|FRAG_IMPACT,pattern=SPIRAL,burstyness=1,muzzleVel=500,spread=2.094,ra
-ngeStdDev=500,damage=400,range=2500,color=0xe04020,fragment={roundsPerBurst=5,pattern=SPIRAL,muzzleVel=700,spread=1.047,r
-angeStdDev=100,damage=200,range=1000,color=0xf05050}} 
+kRadFrag ={roundsPerSec=28,roundsPerBurst=8,explosive=FRAG_FINAL|FRAG_IMPACT,pattern=SPIRAL,burstyness=1,muzzleVel=500,spread=2.094,rangeStdDev=500,damage=400,range=2500,color=0xe04020,fragment={roundsPerBurst=5,pattern=SPIRAL,muzzleVel=700,spread=1.047,rangeStdDev=100,damage=200,range=1000,color=0xf05050}} 
+
+kTournamentDumpHtml = 1

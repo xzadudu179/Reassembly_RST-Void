@@ -17,7 +17,7 @@
 	#include"blocks/17914.lua"--泰拉族
 	#include"blocks/17915.lua"--子系统-膂
 	#include"blocks/17916.lua"--FXTY100101
-	--#include"blocks/17918.lua"--利维坦
+	#include"blocks/17918.lua"--利维坦
 	#include"blocks/17922.lua"--灵戌
 	#include"blocks/17925.lua"--???
 	#include"blocks/17997.lua"--母巢意识

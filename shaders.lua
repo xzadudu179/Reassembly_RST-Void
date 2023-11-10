@@ -27,6 +27,43 @@
 			gl_FragColor = DestinationColor * max(1.0 - R, 0.0);
 		}"
 	},
+	-- draws the wormhole
+	-- 改变虫洞
+	ShaderWormhole = {
+		"varying vec4 DestColor0;
+		varying vec4 DestColor1;
+		varying vec2 DestTex;
+		float length2(vec2 x) { return dot(x, x); }"
+
+		,
+		"attribute vec2 TexCoord;
+		
+		void main(void) {
+			DestColor0 = vec4(0.4, 0.3, 0.8, 0);
+			DestColor1 = mix(vec4(0.5, 0.2, 0.7, 1.1), vec4(DestColor0.xyz, 0.8), length2(TexCoord));
+			DestTex = TexCoord;
+			gl_Position = Transform * Position;
+		}"
+		,
+		"
+		#include 'noise3D.glsl'
+
+		vec2 rotate(vec2 v, float a) {
+			vec2 r = vec2(cos(a), sin(a));
+			return vec2(r.x * v.x - r.y * v.y, r.y * v.x + r.x * v.y);
+		}
+
+		void main(void) {
+			float r = length2(DestTex);
+			float val = snoise(vec3(rotate(DestTex, Time + 3 * r), Time/3 + 2*r) * 2);
+			float aval = snoise(vec3(rotate(DestTex, Time + 2 * r), Time/10) * 1);
+			float alpha = 1. + 1. * aval;           
+			alpha *= max(0, 1 - r) * 3 * r;
+			vec4 color = mix(DestColor0, DestColor1, 0.8 + 0.5 * val);
+			gl_FragColor = vec4(alpha * color.a * color.xyz, 0.0);
+		}"
+	 }
+
     ShaderBackground = {
 	    "varying vec2 pos_ws;",
 		"
@@ -63,24 +100,23 @@
 		}",
 		"galaxy.jpg" 
 	},
+	-- spaceship hulls
 	ShaderIridescent = {
 		"varying vec4 DestinationColor;"
 		,
-		"attribute vec4 SourceColor0, SourceColor1;
+		"attribute vec4 SourceColor0;
+		attribute vec4 SourceColor1;
 		attribute float TimeA;
 		void main(void) {
 			gl_Position = Transform * Position;
-			ivec3 ColorRGB0 = ivec3(SourceColor0.rgb * 255.0 + 0.1);
-			ivec3 ColorRGB1 = ivec3(SourceColor1.rgb * 255.0 + 0.1);
-			float val = (ColorRGB0 == ivec3(16, 96, 207) && ColorRGB1 == ivec3(20, 118, 255))?0.5 * tan(0.4 * (Time + TimeA)):(0.5 + 0.5 * sin(0.5 * (Time + TimeA)));
-			vec4 Color = mix(SourceColor0, SourceColor1, val);
-			float k = smoothstep(-1.0, 1.0, Position.y * ((Transform[0][0] >= 0.0)?0.04:(-0.04)));
-			DestinationColor = vec4(mix(1.0, 0.7 + 0.5 * k, abs(Transform[0][0])) * Color.rgb, Color.a);
-		}",
-		"void main(void) {
-			gl_FragColor = DestinationColor;
+			float val = 0.5 + 0.5 * sin(0.5 * (Time + TimeA));
+			DestinationColor = mix(SourceColor0, SourceColor1, val);
 		}"
-	},
+		,
+		"void main(void) {
+			  gl_FragColor = DestinationColor;
+		}"
+	 },
 
 	-- draws projectiles, shields, lasers, etc
 	ShaderColorLuma = {
@@ -92,7 +128,8 @@
 		{
 			gl_Position = Transform * Position;
 			DestinationColor = Luma * ((Position.z >= 1.0)?(0.6 * max(SourceColor * 1.07 - 0.07, 0.0)):SourceColor);
-		}",
+		}"
+		,
 		"void main(void) {
 			gl_FragColor = DestinationColor;
 		}" 

@@ -3,7 +3,8 @@
     group=17902,
     features=ASSEMBLER|COMMAND|GENERATOR|THRUSTER|TORQUER|TRACTOR,
     name=_("Universal console"),
-    blurb=_("")		shape=COMMAND,
+    blurb=_(""),
+    shape=COMMAND,
     fillColor=0x292929,
     fillColor1=0x767676,
     lineColor=0x02bbdf,
@@ -784,7 +785,7 @@
     growRate=20,
     capacity=100,
 },
-    
+
 {
     150042,
     group=17902,
@@ -1170,7 +1171,7 @@
         roundsPerBurst=5
         burstyness=1,
         range=1700,
-        spread=0.7,
+        spread=0.3,
         color=0x004d8f,
         pattern=SPIRAL,
         explosive=FRAG_PROXIMITY,
@@ -1178,7 +1179,7 @@
         fragment={
             roundsPerBurst=4,
             muzzleVel=500,
-            spread=0.625,
+            spread=0.325,
             damage=55,
             range=300,
             color=0x02bbdf,
@@ -2653,13 +2654,13 @@
 {17902132,extends=17902115,scale=3,shape=RECT,shroud={{}}},
 
 {
-    17902084,
-    extends=17902115,
-    fillColor=0xaa163147,
-    fillColor1=0xaa093962,
-    lineColor=0x2697fa,
-    scale=1,
-},
+    17902084
+    extends=17902115
+    fillColor=0xaa163147
+    fillColor1=0xaa093962
+    lineColor=0x2697fa
+    scale=1
+}
 {17902133,extends=17902084,scale=2,shape=SQUARE,shroud={{size={20,10},offset={15, 0, 3},taper=1,count=1,angle=3.14,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE,}}},
 {17902134,extends=17902084,scale=3,shape=SQUARE,shroud={{size={10*3,5*3},offset={22.5, 0, 3},taper=1,count=1,angle=3.14,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE,}}},
 {17902135,extends=17902084,scale=1,shape=RIGHT_TRI,shroud={{size={10,10},offset={1.17, 0, 3},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=RIGHT_TRI,}}},
@@ -2727,7 +2728,8 @@
     scale=1,
     growRate=18,
     name=_("Aerial Vehicle Hull"),
-    blurb=_("Structural hull, can provide effective armor"),
+    --blurb=_("Structural hull, can provide effective armor"),
+    blurb="警告:此组件用于舰载机，请勿使用于舰船",
     --lifetime=45123123,
 },
 
@@ -3010,7 +3012,7 @@
     17902200,
     group=17902,
     features=THRUSTER|FREERES|PALETTE,
-    name=_("Mini-Thruster"),
+    name=_("Mini-Thruster"),blurb="警告:此组件用于舰载机，请勿使用于舰船",
     blurb=_("Flamethrower - mimics the technology of Spiky Plant"),
     shape=1179112,
     scale=1,
@@ -3042,7 +3044,7 @@
     17902203,
     group=17902,
     features=CANNON|TURRET|FREERES|PALETTE,
-    name="UAV-CANNON",
+    name="UAV-CANNON",blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179105,
     scale=1,
     fillColor=0x292929,
@@ -3073,6 +3075,7 @@
     group=17902,
     features=CANNON|TURRET|FREERES|PALETTE,
     name="UAV-CANNON-MKII",
+    blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179105,
     scale=2,
     fillColor=0x292929,
@@ -3103,6 +3106,7 @@
     group=17902,
     features=LASER|TURRET|FREERES|PALETTE,
     name="REPAIR-LASER",
+    blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179105,
     scale=3,
     fillColor=0x292929,
@@ -3131,6 +3135,7 @@
     group=17902,
     features=LASER|TURRET|FREERES|PALETTE,
     name="POINT-DEFENSE-LASER",
+    blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179105,
     scale=2,
     fillColor=0x292929,
@@ -3158,6 +3163,7 @@
     group=17902,
     features=FREERES|PALETTE,
     name="Container",
+    blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179105,
     scale=1,
     fillColor=0x292929,
@@ -3175,7 +3181,7 @@
     17902208,
     group=17902,
     features=LAUNCHER|FREERES|PALETTE,
-    name="LAUNCHER",
+    name="LAUNCHER",blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179113,
     scale=1,
     fillColor=0x004d8f,
@@ -3216,7 +3222,7 @@
     17902210,
     group=17902,
     features=LAUNCHER|FREERES|PALETTE,
-    name="ROCKET-LAUNCHER",
+    name="ROCKET-LAUNCHER",blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179113,
     scale=2,
     fillColor=0x004d8f,
@@ -3257,7 +3263,7 @@
     17902209,
     group=17902,
     features=TRACTOR|FREERES|PALETTE,
-    name="Tractor",
+    name="Tractor",blurb="警告:此组件用于舰载机，请勿使用于舰船",
     shape=1179105,
     scale=1,
     fillColor=0x163147,

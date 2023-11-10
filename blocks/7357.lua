@@ -70,7 +70,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannon={
         damage=0,
@@ -221,7 +221,7 @@
     durability=5,
     replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -233,7 +233,7 @@
         durability=5,
         replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -245,7 +245,7 @@
         durability=5,
         replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -256,7 +256,7 @@
         },
         durability=5,replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -267,7 +267,7 @@
         },
         durability=5,replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -278,7 +278,7 @@
         },
         durability=5,replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -289,7 +289,7 @@
         },
         durability=5,replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -300,7 +300,7 @@
         },
         durability=5,replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -311,7 +311,7 @@
         },
         durability=5,replicateBlock={
         group=7357,
-        features=COMMAND|LAUNCHER,	
+        features=COMMAND|LAUNCHER,
         name="导弹发射器发射器发射器发射器发射器发射器发射器........发射器",
         shape=GEM_2_LAUNCHER,
         fillColor=0x008cb5,
@@ -334,6 +334,35 @@
 },
 
 {
+    12347357,
+    group=7357,
+    features=CANNON,
+    name="追踪子弹..?",
+    blurb="测试型装置",
+    fillColor=0x72eef7,
+    fillColor1=0x2761c6,
+    lineColor=0x00ffff,
+    cannon={
+        damage=1,
+        recoil=0,
+        power=250,
+        roundsPerSec=10,
+        muzzleVel=100,
+        range=1,
+        pattern=SPIRAL,
+        spread=2.356,
+        roundsPerBurst=25,
+        burstyness=0.6,
+        color=0x00000000,
+        fragment={roundsPerBurst=60,muzzleVel=1200,spread=3.0892,damage=50,range=3500,pattern=SPIRAL|ABSOLUTE,color=0x00000000,explosive=FRAG_IMPACT,projectileSize=3,
+        fragment={roundsPerBurst=1,muzzleVel=-150000,spread=0,damage=40,range=3400,pattern=SPIRAL|ABSOLUTE,color=0x00f7b024,explosive=FRAG_IMPACT,projectileSize=3,
+        fragment={roundsPerBurst=1,muzzleVel=100,spread=0,damage=40,range=3400,pattern=SPIRAL|ABSOLUTE,color=0xf7b024,explosive=FRAG_IMPACT,projectileSize=3,}
+        },
+        },
+    }
+}
+
+{
     159179125,
     group=7357,
     features=ACTIVATE|EXPLODE,
@@ -346,7 +375,7 @@
     durability=1,
     density=0.1,
     growRate=3.3,
-     
+
     explodeDamage=50,
     explodeRadius=25,
 },
@@ -365,9 +394,26 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     explodeDamage=50,
     explodeRadius=25,
+},
+
+{
+    159179166,
+    group=7357,
+    features=NOCLIP,
+    name="无碰撞",
+    blurb="测试型装置",
+    shape=SQUARE,
+    scale=5,
+    fillColor=0x72eef7,
+    fillColor1=0x2761c6,
+    lineColor=0x00ffff,
+    points=0,
+    durability=1,
+    density=0.1,
+    growRate=3.3,
 },
 
 {
@@ -384,7 +430,7 @@
     durability=1,
     density=0.1,
     growRate=3.3,
-     
+
     explodeDamage=50,
     explodeRadius=25,
 },
@@ -403,7 +449,7 @@
     durability=1,
     density=0.1,
     growRate=3.3,
-     
+
     explodeDamage=50,
     explodeRadius=25,
 },
@@ -423,7 +469,7 @@
     density=0.1,
     deathFeatures=EXPLODE,
     growRate=3.3,
-     
+
     lifetime=-1,
     thrusterForce=400000,
     thrusterBoost=1,
@@ -447,7 +493,7 @@
     density=0.1,
     deathFeatures=EXPLODE,
     growRate=3.3,
-     
+
     lifetime=-1,
     thrusterForce=4000000000,
     rotatorSpeed=50,
@@ -468,7 +514,7 @@
     points=0,
     durability=10,
     density=0.1,
-    growRate=3.3, 
+    growRate=3.3,
     lifetime=-1,
 },
 
@@ -499,7 +545,7 @@
     points=0,
     durability=10,
     density=0.1,
-    growRate=3.3, 
+    growRate=3.3,
     lifetime=-1,
 },
 
@@ -562,7 +608,7 @@
     durability=999999,
     density=25,
     growRate=1,
-     
+
     lifetime=-1,
 },
 
@@ -581,7 +627,7 @@
     density=0.1,
     bindingId=3,
     growRate=3.3,
-     
+
     cannon={
         damage=2,
         power=0,
@@ -630,7 +676,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -652,7 +698,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -670,7 +716,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -706,7 +752,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -797,7 +843,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -815,7 +861,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -833,7 +879,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -851,7 +897,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -869,7 +915,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -887,7 +933,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -905,7 +951,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -923,7 +969,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -941,7 +987,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -959,7 +1005,7 @@
     durability=10,
     density=0.1,
     growRate=3.3,
-     
+
     lifetime=-1,
 },
 
@@ -978,7 +1024,7 @@
     durability=1200,
     density=0.2,
     growRate=3.3,
-     
+
     meleeDamage=120,
     lifetime=-1,
 },
@@ -998,7 +1044,7 @@
     durability=1200,
     density=0.2,
     growRate=3.3,
-     
+
     meleeDamage=120,
     lifetime=-1,
 },
@@ -1018,7 +1064,7 @@
     durability=1200,
     density=0.2,
     growRate=3.3,
-     
+
     meleeDamage=120,
     lifetime=-1,
 },
@@ -1038,7 +1084,7 @@
     durability=1200,
     density=0.2,
     growRate=3.3,
-     
+
     meleeDamage=120,
     lifetime=-1,
 },
@@ -1058,7 +1104,7 @@
     durability=1200,
     density=0.2,
     growRate=3.3,
-     
+
     meleeDamage=120,
     lifetime=-1,
 },
@@ -1078,7 +1124,7 @@
     durability=1200,
     density=0.2,
     growRate=3.3,
-     
+
     meleeDamage=120,
     lifetime=-1,
 },
@@ -1098,7 +1144,7 @@
     durability=1200,
     density=0.2,
     growRate=3.3,
-     
+
     meleeDamage=120,
     lifetime=-1,
 },
@@ -1158,11 +1204,92 @@
     growRate=8,
     armor=40,
     capacity=0,
-    thrusterForce=30000*2,	
+    thrusterForce=30000*2,
     thrusterBoost=7,
     thrusterBoostTime=0.3,
     thrusterColor=0x442c4d9e,
     thrusterColor1=0x440174bc,
+},
+
+{
+    73571500,
+    group=7357,
+    features=PALETTE|CANNON,
+    name=_("TAR directional fast electromagnetic gun?"),
+    blurb=_("Advanced electromagnetic gun capable of rapidly firing shells"),
+    shape=CANNON2,
+    scale=2,
+    fillColor=0x292929,
+    fillColor1=0x292929,
+    lineColor=0x02bbdf,
+    points=0,
+    durability=2,
+    density=0.16,
+    growRate=5,
+    armor=1,
+    bindingId=1,
+    shroud={
+        {size={20,20},offset={5, 0, 0.1},taper=1,count=1,angle=3.14,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=RHOMBUS_36_144,}
+        {size={12,5},offset={0, 5, 0.09},taper=1,count=1,angle=0,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=RHOMBUS_36_144}
+        {size={12,5},offset={0, -5, 0.09},taper=1,count=1,angle=0,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=RHOMBUS_36_144}
+        {size={20,0.1},offset={-5, 0, 0.12},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=SQUARE}
+        }
+    capacity=0,
+    cannon={
+        damage=100,
+        power=20,
+        roundsPerSec=80,
+        muzzleVel=1555,
+        recoil=0,
+        range=200,
+        spread=2.356,
+        roundsPerBurst=4,
+        burstyness=1
+        pattern=SPIRAL,
+        explosive=FRAG_FINAL,
+        color=0x02bbdf,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=-1.57,roundsPerBurst=1,
+        fragment={damage=100,range=200,muzzleVel=1555,color=0x02bbdf,pattern=ABSOLUTE|CONSTANT,spread=1.57,roundsPerBurst=1,
+        }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+    },
 },
 
 {
@@ -1192,8 +1319,8 @@
         muzzleVel=1800,
         range=0,
         pattern=SPIRAL,
-        spread=3.14,
-        roundsPerBurst=51,
+        spread=3.07876,
+        roundsPerBurst=50,
         burstyness=1,
         explosive=FRAG_FINAL,
         color=0xffdd9a,
@@ -1460,7 +1587,7 @@
     durability=34028235679733642748073463979561713663,
     density=0.1,
     growRate=inf,
-     
+
     generatorCapacityPerSec=50,
     powerCapacity=50,
     replicateBlock={
@@ -1477,8 +1604,8 @@
         durability=34028235679733642748073463979561713663,
         density=0.1,
         growRate=inf,
-         
-        barrelSize={12,5}, 
+
+        barrelSize={12,5},
         barrelCount=6,
         generatorCapacityPerSec=100,
         powerCapacity=1,
@@ -1551,7 +1678,7 @@
           damage=1,
           muzzleVel=4000,
           range=400,
-          spread=3.14, 
+          spread=3.14,
           roundsPerBurst=5,
           projectileSize=0,
           pattern=SPIRAL|ABSOLUTE,

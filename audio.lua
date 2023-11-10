@@ -39,7 +39,7 @@
 	 priority = -2,
 	 pitch = 1,
 	 flags = cluster|cull_vol|cull3d_vol,
-	 volume = 0.6,
+	 volume = 0.4,
 	 pitchRandomize = 0.05,
 	},
 
@@ -62,7 +62,7 @@
 	 volume = 0.11,
 	 pitchRandomize = 0.08,
 	},
-	
+
 	 rail=
 	{
 	 samples = {"weapons/RailgunNew.ogg"},
@@ -82,7 +82,7 @@
 	 volume = 0,
 	 pitchRandomize = 0.05,
 	},
-	
+
 	 future=
 	{
 	 samples = {"thruster/推进器重.ogg"},
@@ -92,7 +92,7 @@
 	 volume = 0.3,
 	 pitchRandomize = 0.05,
 	},
-	
+
 	 pilgrim=
 	{
 	 samples = {"weapons/朝圣激光预设.ogg"},
@@ -102,7 +102,7 @@
 	 volume = 0.2,
 	 pitchRandomize = 0.05,
 	},
-	
+
 	pmtr=
 	{
 	 samples = {"turuster/朝圣推进器预设.ogg"},
@@ -122,7 +122,7 @@
 	 volume = 0.5,
 	 pitchRandomize = 0.0,
 	},
-	
+
 	-- 点击音效
 	ButtonPress = {
 		samples =
@@ -154,6 +154,6 @@
 		volume = 0.3,
 		priority = 2,
 	   },
-   
-	 
+
+
 }

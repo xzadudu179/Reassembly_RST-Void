@@ -3,6 +3,7 @@
 -- RWDK was written by TTFTCUTS
 
 {
+	--这里的每一个字符串引号前都要加上_( 后都要加上)
 	-- 17903 = {
 	-- 	name=_("Eyes of the STARS"),
 	-- 	playable=2,
@@ -23,40 +24,29 @@
 	-- 	primaries=3,
 	-- 	aiflags=CAUTIOUS|DODGES|FLOCKING|FORGIVING|METAMORPHOSIS|PEACEFUL|SMART_FIRE|SOCIAL|TRACTOR_TRANSIENT|WANDER,
 	-- },
-	
+
 	17904 = {
 		name=_("Fungi"),
-		playable=2,
+		playable=3,
 		start="17904_战菌",
 		explosionColor0=0xbdc7c3,
 		explosionColor1=0x677c74,
 		primaries=0,
 		aiflags=AGGRESSIVE|CAUTIOUS|DODGES|FLOCKING|FORGIVING|PEACEFUL|SMART_FIRE|SOCIAL|SPREAD_FIRE|WANDER,
 	},
-	
+
 		17905 = {
 		name=_("Legion"),
-		playable=2,
+		playable=3,
 		start="17905_萨蒂安I",
 		color0=0x5fead1,
 		color1=0x393a3a,
 		aiflags=BAD_AIM|FLOCKING|FORGIVING|METAMORPHOSIS|RECKLESS|SOCIAL|WANDER,
 	},
-	
-	    17902 = {
-		name=_("Human interstellar United Nations(HIUN)"),
-		playable=2,
-		start="17902_镧侦查机",
-		primaries=3,
-		color0=0x767676,
-		color1=0x00d6ff,
-		color2=0x2e2e2e,
-		aiflags=BAD_AIM|CAUTIOUS|FLOCKING|PEACEFUL|SMART_FIRE|WANDER,
-	},
-	
-		17907 = {
+
+	17907 = {
 		name=_("Shadow of the Void"),
-		playable=2,
+		--playable=1,
 		primaries=3,
 		start="17907_^6虚空毁灭者",
 		thrustSFX=1,
@@ -65,7 +55,18 @@
 		color2=0xd14fed,
 		aiflags=BAD_AIM|CAUTIOUS|PEACEFUL|SMART_FIRE|WANDER,
 	},
-	
+
+	17902 = {
+		name=_("Human interstellar United Nations(HIUN)"),
+		playable=2,
+		start="17902_镧侦查机",
+		primaries=3,
+		color0=0x767676,
+		color1=0x00d6ff,
+		color2=0x2e2e2e,
+		aiflags=BAD_AIM|CAUTIOUS|FLOCKING|PEACEFUL|SMART_FIRE|WANDER|FORGIVING,
+	},
+
        17901 = {
 		name=_("ICE"),
 		color0=0x787d92,
@@ -74,14 +75,14 @@
 		explosionColor1=0xf8feff,
 		aiflags=CAUTIOUS|FORGIVING|HATES_PLANTS|PEACEFUL|SMART_FIRE|SOCIAL|WANDER,
 	},
-	
+
 	--     17913 = {
 	-- 	name=_("Aquatic Plants"),
 	-- 	primaries=0,
 	-- 	start="17913_^5烛光草",
 	-- 	aiflags=AGGRESSIVE|CAUTIOUS|FLOCKING|FORGIVING|HATES_PLANTS|PEACEFUL|RIPPLE_FIRE|SPREAD_FIRE|WANDER|NO_PARENT,
 	-- },
-	
+
 	-- 	17908 = {
 	-- 	name=_("Interstellar joint mining industry(IMI)"),
 	-- 	start="17908_^3警戒船",
@@ -91,7 +92,7 @@
 	-- 	color2=0x828282,
 	-- 	aiflags=BAD_AIM|CAUTIOUS|DODGES|FLOCKING|FORGIVING|HATES_PLANTS|METAMORPHOSIS|SOCIAL|SPREAD_FIRE|TRACTOR_TRANSIENT|WANDER,
 	-- },
-	
+
 		17910 = {
 		name=_("Ghost"),
 		primaries=2,
@@ -99,7 +100,7 @@
 		color1=0xc5c5c5,
 		aiflags=CAUTIOUS|DODGES|FORGIVING|METAMORPHOSIS|WANDER,
 	},
-	
+
 	    17912 = {
 		name=_("Adamantite"),
 		start="17912_守护者",
@@ -107,7 +108,7 @@
 		color1=0x999999,
 		aiflags=AGGRESSIVE|FLOCKING|FORGIVING|METAMORPHOSIS|RECKLESS|SOCIAL|WANDER,
 	},
-	
+
 		17914 = {
 		name=_("Terra"),
 		start="17914_^6守护者-火种",
@@ -118,20 +119,20 @@
 		color2=0x7e8a87,
 		aiflags=CAUTIOUS|DODGES|FLOCKING|FORGIVING|METAMORPHOSIS|PEACEFUL|RIPPLE_FIRE|SMART_FIRE|WANDER,
 	},
-	
+
 		17906 = {
 		name=_("Revitalizer"),
 		start="17906_拾光者",
 		primaries=2,
-		playable=2,
+		playable=3,
 		color0=0xe17411,
 		color1=0xb3b3b3,
 		aiflags=CAUTIOUS|DODGES|FLOCKING|PEACEFUL|SOCIAL|TRACTOR_TRANSIENT|WANDER,
 	},
-	
+
 		17915 = {
 		name=_("Backbones"),
-		playable=2,
+		playable=3,
 		start="17915_“锥”战机EXTRA",
 		primaries=3,
 		color0=0x696969,
@@ -141,10 +142,10 @@
 		explosionColor1=0xc5f3fd,
 		aiflags=CAUTIOUS|DODGES|FLOCKING|PEACEFUL|WANDER,
 	},
-	
+
 	17916 = {
 		name=_("FXTY100101"),
-		playable=2,
+		playable=3,
 		start="17916_^2MILK系统",
 		color0=0x5a9085,
 		color1=0x0a8d12,
@@ -152,7 +153,7 @@
 		explosionColor1=0xdcffd4,
 		aiflags=AGGRESSIVE|FLOCKING|FORGIVING|HATES_PLANTS|METAMORPHOSIS|SPREAD_FIRE|WANDER,
 	},
-	
+
 	-- 17911 = {
 	-- 	name=_("Pilgrims"),
 	-- 	playable=2,
@@ -165,18 +166,18 @@
 	-- 	explosionColor1=0xe967ff,
 	-- 	aiflags=BAD_AIM|CAUTIOUS|DODGES|FLOCKING|FORGIVING|PEACEFUL|SMART_FIRE|SOCIAL|WANDER,
 	-- },
-	
-	-- 17918 = {
-	-- 	name=_("Leviathan"),
-	-- 	playable=2,
-	-- 	start="17918_^5海妖-克拉肯^7",
-	-- 	primaries=3,
-	-- 	color0=0x9a0000,
-	-- 	color1=0x00baa7,
-	-- 	color2=0x4e4e4e,
-	-- 	aiflags=CAUTIOUS|FLOCKING|HATES_PLANTS|RECKLESS|SOCIAL|WANDER,
-	-- },
-	
+
+	17918 = {
+		name=_("Leviathan"),
+		--playable=1,
+		start="17918_^5海妖-克拉肯^7",
+		primaries=3,
+		color0=0x9a0000,
+		color1=0x00baa7,
+		color2=0x4e4e4e,
+		aiflags=CAUTIOUS|FLOCKING|HATES_PLANTS|RECKLESS|SOCIAL|WANDER,
+	},
+
 	17922 = {
 		name=_("Ectoplasm Lairdweller"),
 		start="17922_^4巢雏-碎片^7",
@@ -191,7 +192,7 @@
 
 	17997 = {
 		name=_("^3X-A Hatchery Consciousness^7"),
-		--playable=2,
+		--playable=1,
 		start="17997_X-A星云改装型",
 		primaries=3,
 		color0=0xf0f0f0,
@@ -201,20 +202,37 @@
 	},
 
 	179102 = {
-		name="...The Punisher",
-		primaries=1,
-		color0=0x4232c9,
+		name=_("...制裁者"),
+		primaries=2,
+		color0=0xababab,
+		color1=0x1e00a6,
+		aiflags=AGGRESSIVE|WANDER|CAUTIOUS,
 	},
 
 	179103 = {
-		name="...00KF",
+		name=_("...00KF"),
 		primaries=1,
 		color0=0x4232c9,
+		aiflags=AGGRESSIVE|WANDER|CAUTIOUS,
 	},
 
+	179104 = {
+		name=_("....雾帆"),
+		primaries=2,
+		color0=0xaaaaaa,
+		color1=0xd71313,
+		aiflags=AGGRESSIVE|WANDER|RECKLESS,
+	}
+
 	179101 = {
-		name="Center of the universe......",
+		name=_("宇宙中心......"),
 		primaries=1,
+	}
+
+	179999 = {
+		name=_("^1???^7"),
+		primaries=3,
+		aiflags=AGGRESSIVE|WANDER|TRACTOR_TRANSIENT,
 	}
 
 	17998 = {
@@ -231,15 +249,28 @@
 	},
 
 	17919 = {
-		name="^1The Lost Civilization^7",
-		playable=2,
-		start="",
+		name=_("^5The Lost^7"),
+		playable=3,
+		start="17919_^5Kikemira^7-^8协作子机^7",
 		primaries=3,
 		color0=0x1a285f,
 		color1=0x2e5969,
 		color2=0xe0e1ce,
+		explosionColor0=0x2554bd,
+		explosionColor1=0x0d0861,
 		aiflags=AGGRESSIVE|CAUTIOUS|DODGES|FORGIVING|SMART_FIRE|WANDER,
 	},
+
+	17929 = {
+		name=_("^1Relic of the Lost^7"),
+		primaries=3,
+		color0=0x1a285f,
+		color1=0x2e5969,
+		color2=0xe0e1ce,
+		explosionColor0=0x2554bd,
+		explosionColor1=0x0d0861,
+		aiflags=CHILDREN_SET|NONE,
+	}
 
 	--17925 = {
 	--	name="骸骨",
@@ -248,7 +279,7 @@
 	--	primaries=0,
 	--	aiflags=AGGRESSIVE|CAUTIOUS|DODGES|FLOCKING|FORGIVING|HATES_PLANTS|RECKLESS|SMART_FIRE|SOCIAL|WANDER,
 	--},
-	
+
 	--7357 = {
 		--name="测试型零件整合",
 		--primaries=0,

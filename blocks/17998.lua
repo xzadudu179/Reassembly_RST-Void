@@ -890,7 +890,6 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1384,7 +1383,7 @@
 
 {
     17998054,
-    group=17998,
+    group=17998,    
     features=PALETTE,
     name="架构模块",
     blurb="基础船体 ^3构造等级：^1低^7",
@@ -1696,7 +1695,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+    
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1710,7 +1709,7 @@
         fillColor1=0xe7b1cf,
         lineColor=0xd65799,
         command={
-           flags=ATTACK,
+            flags=ATTACK,
         },
         points=1,
         durability=0.6,
@@ -1757,7 +1756,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+    
     capacity=0,
     replicateBlock={
         group=17998,
