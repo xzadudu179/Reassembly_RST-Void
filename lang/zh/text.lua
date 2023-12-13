@@ -24,8 +24,10 @@
 "Pilgrims"="朝圣者",
 "Leviathan"="利维坦",
 "Ectoplasm Lairdweller"="灵戌",
-"wind catcher"="捕风者",
 "^3X-A Hatchery Consciousness^7"="^3X-A母巢意识^7"
+"Wind Catcher"="捕风者"
+"^1Relic of the Lost^7"="^1文明的遗迹^7"
+"^5The Lost^7"="^5失落者文明^7"
 -- 军团 --
 "Command module"="指挥舱",
 "The most important block of Legion ships"="军团舰船最重要的方块",
@@ -361,7 +363,4 @@
 "Power storager"="储能菌"
 "Fungi that can storage energy"="用于储能的真菌"
 ---
-"Wind Catcher"="捕风者"
-"^1Relic of the Lost^7"="^1文明的遗迹^7"
-"^5The Lost^7"="^5失落者文明^7"
 }

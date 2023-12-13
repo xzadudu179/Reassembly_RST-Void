@@ -67,7 +67,7 @@
 		aiflags=BAD_AIM|CAUTIOUS|FLOCKING|PEACEFUL|SMART_FIRE|WANDER|FORGIVING,
 	},
 
-       17901 = {
+    17901 = {
 		name=_("ICE"),
 		color0=0x787d92,
 		color1=0x9db5c5,

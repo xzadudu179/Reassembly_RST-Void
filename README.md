@@ -42,20 +42,20 @@ blocks.lua 中使用`{}`分隔每一个零件或零件内的参数，这边我�
 
 ```lua
 {
-    1010163,                                    --ident
-    group=17916,                                --group (The faction to which they belong)
-    features=PALETTE|CANNON|TURRET,             --block features
-    name="火炮模块",
-    blurb="高伤害火炮模块",
-    shape=SQUARE_LAUNCHER,
-    scale=1,                                    --shape scale
-    fillColor=0x66102e1d,
+    1010163,                                    -- 方块编号
+    group=17916,                                -- 方块所属种族编号
+    features=PALETTE|CANNON|TURRET,             -- 方块特性(有很多标签)
+    name="火炮模块",                              -- 方块名称
+    blurb="高伤害火炮模块",                        -- 方块介绍
+    shape=SQUARE_LAUNCHER,                      -- 方块形状 (有名字的是原版形状，否则输入形状编号)
+    scale=1,                                    -- 形状缩放(不同 scale 对应该形状不同大小版本)
+    fillColor=0x66102e1d,                       -- 方块颜色，从 0 渐变到 1，格式为0xRRGGBB或0xRRGGBBAA
     fillColor1=0x065d24,
-    lineColor=0x5cbb5b,
-    durability=3,                               --durability * block's area = Health
-    density=0.12,                               --density * block's area = weight
-    growRate=5,                                 --Assembly rate
-    shroud={                                    --shroud (You can think of it as an ornament)
+    lineColor=0x5cbb5b,                         -- 描线的颜色
+    durability=3,                               -- 耐久度 * 方块面积 = 生命值
+    density=0.12,                               -- 密度 * 方块面积 = 重量
+    growRate=5,                                 -- 重组的速率, 越大越快
+    shroud={                                    -- 装饰组件 (下面这些是装饰组件的内容)
         {size={6,3},offset={-1, 0, 0.33},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE}
         {size={4,1.25},offset={-1, 2.5, 0.32},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE}
         {size={4,0.75},offset={2, 1.5, 0.31},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE}
@@ -65,30 +65,30 @@ blocks.lua 中使用`{}`分隔每一个零件或零件内的参数，这边我�
         {size={7.5,1.25},offset={2.5, 0, 0.3},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE}
         {size={4.242,2.121},offset={0.5, -1.5, 0.33},taper=1,count=1,angle=0.785,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE}
         }
-    bindingId=1,                                --Weapon group Id
-    capacity=0,                                 --R capacity
-    cannon={                                    --Parameters for features = CANNON
-        damage=60,                              --Damage per hit
-        power=10,                               --Power per shot
-        roundsPerSec=5,
-        muzzleVel=1200,                         --Bullet velocity
-        range=1300,
-        spread=0,                               --Spread (± radian)
-        roundsPerBurst=5,
-        burstyness=0.8,                         --The proportion of the cannon's rest time in a burst.
-        color=0x5bbb80,                         --Bullet's color!
-        explosive=FRAG_FINAL,                   --Explosive properties of the bullet
-        fragment={
-            roundsPerBurst=4,                   --Number of bullets in the fragment
-            muzzleVel=200,
-            spread=2.356,
-            pattern=SPIRAL|ABSOLUTE,            --Special parameters of fragment
-            damage=60,
-            range=80,
-            color=0x5bbb80,                     --Also bullet's color!
+    bindingId=1,                                -- 武器组的 ID (1为左键)
+    capacity=0,                                 -- R 储量
+    cannon={                                    -- CANNON 标签所包含的属性块
+        damage=60,                              -- 每发子弹的伤害
+        power=10,                               -- 每次射击所消耗的能量
+        roundsPerSec=5,                         -- 每秒的子弹数量
+        muzzleVel=1200,                         -- 子弹速度
+        range=1300,                             -- 子弹射程
+        spread=0,                               -- 子弹最大正负散布弧度
+        roundsPerBurst=5,                       -- 一次射击的子弹数
+        burstyness=0.8,                         -- 子弹发射/休息时间的比率 (越接近1子弹一次性发射越快)
+        color=0x5bbb80,                         -- 子弹的颜色
+        explosive=FRAG_FINAL,                   -- 子弹爆炸方式 (FRAG_FINAL 为在子弹超出射程消失后产生弹片)
+        fragment={                              -- 弹片属性
+            roundsPerBurst=4,                   -- 分裂的弹片数量
+            muzzleVel=200,                      -- 弹片速度
+            spread=2.356,                       -- 子弹最大正负散布弧度
+            pattern=SPIRAL|ABSOLUTE,            -- 散布方式，SPIRAL 为均匀，ABSOLUTE 为不受相对速度影响
+            damage=60,                          -- 子弹速度
+            range=80,                           -- 子弹射程
+            color=0x5bbb80,                     -- 弹片的颜色
         }
     },
-    turretSpeed=7,                              --Rotating speed (radian/s)
+    turretSpeed=7,                              -- 炮台每秒旋转弧度（TURRET 的属性）
 },
 ```
 
@@ -105,16 +105,16 @@ blocks.lua 中使用`{}`分隔每一个零件或零件内的参数，这边我�
 ```lua
 --HEXAGON_THRUSTER
 	{
-        1792125103, --ident
+        1792125103, -- 形状的 ID
         {
-            {   --shape data
-                verts={{-2.598,-3},{-2.598,3},{0,1.5},{0,-1.5}},    --coordinates of the end points
-                --         ↓The port is at the 50% position of side A→B
+            {   -- 形状数据
+                verts={{-2.598,-3},{-2.598,3},{0,1.5},{0,-1.5}},    -- 节点列表，游戏会按按顺时针渲染从左到右的形状
+                --         ↓ 表示连接点在该边长度的 50% 处。
                 ports={{2,0.5,THRUSTER_IN},{0,0.5,}},
-                --      ↑ The side where the port is (from 0)
+                --      ↑ 表示边数 (从 0 开始) 边数根据节点数计算，第 0 1 个节点连接起来为第 0 个边
             }       --scale 1
 	        {
-                verts={{-5.196,-6},{-5.196,6},{0,3},{0,-3}},         --  ↓port property
+                verts={{-5.196,-6},{-5.196,6},{0,3},{0,-3}},         --  ↓ 连接点的类型
                 ports={{2,0.25,THRUSTER_IN},{2,0.5,THRUSTER_IN},{2,0.75,THRUSTER_IN},{0,0.5,}}
             }       --scale 2
 	        {
@@ -139,20 +139,20 @@ blocks.lua 中使用`{}`分隔每一个零件或零件内的参数，这边我�
 
 游戏内形状计算精准度为小数点后六位。
 
-下面是接点的属性：
+下面是接点的类型：
 
-|   **Name**   |          **Effect**          |
-| :----------: | :--------------------------: |
-|     NONE     |         Normal port          |
-| THRUSTER_IN  |   Thruster Connection Port   |
-| THRUSTER_OUT |       Thruster Output        |
-|  WEAPON_IN   |    Weapon Connection Port    |
-|  WEAPON_OUT  |        Weapon Output         |
-|   MISSILE    |   Missile Connection Port    |
-|   LAUNCHER   |        Missile Mount         |
-|     ROOT     | ROOT ENVIRONMENTAL connector |
+|   **Name**   |                **Effect**                |
+| :----------: | :--------------------------------------: |
+|     NONE     |                 一般接点                 |
+| THRUSTER_IN  |          推进器与方块连接的接点          |
+| THRUSTER_OUT |            推进器发射处的接点            |
+|  WEAPON_IN   |     与武器连接的接点，一般用于增幅器     |
+|  WEAPON_OUT  |              武器发射的接点              |
+|   MISSILE    |         导弹生成时优先连接的接点         |
+|   LAUNCHER   |            能够生成导弹的接点            |
+|     ROOT     | 一般用于种子，能够吸附在环境块上的根接点 |
 
-如果需要镜像形状，可以使用`mirror_of`：
+如果需要镜像形状，可以使用`mirror_of=[形状编号]`像下面这样 ↓：
 
 ```lua
 {
