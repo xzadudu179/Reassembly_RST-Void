@@ -2617,6 +2617,57 @@
 }
 
 {
+    17919290,
+    group=17919,
+    features=CANNON|PALETTE,
+    name=_("火炮系统-网络-I型"),
+    blurb=_("能够向四周布置子弹阵列的系统,没有后坐力"),
+    shape=1179119,
+    scale=2,
+    fillColor=0xbabb9e,
+    fillColor1=0xe0e1ce,
+    lineColor=0x24346e,
+    points=28,
+    durability=2.2,
+    density=0.2,
+    growRate=5,
+    bindingId=3,
+    capacity=0,
+    shroud={
+        {size={14.42/2,16.55/2},offset={2.93, 0, 0.05},taper=1,count=1,angle=0,tri_color_id=1,tri_color1_id=0,line_color_id=2,shape=1179119}
+        {size={14.42/1.3,16.55/1.3},offset={2.93, 0, 0.02},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=0,line_color_id=2,shape=1179119}
+        {size={6,2.5},offset={2.93, 0, 0.04},taper=1,count=1,angle=1.047,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=SQUARE}
+        {size={6,2.5},offset={2.93, 0, 0.04},taper=1,count=1,angle=-1.047,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=SQUARE}
+        {size={6,2.5},offset={-3.11, 0, 0.04},taper=1,count=1,angle=0,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=SQUARE}
+    }
+    aihint_range = 1000,
+    cannon={
+        recoil=0,
+        damage=1,
+        power=25,
+        roundsPerSec=3,
+        muzzleVel=1500,
+        range=1,
+        pattern=SPIRAL,
+        roundsPerBurst=50,
+        rangeStdDev=500,
+        burstyness=1,
+        spread=3.0787608005084,
+        color=0x4463d8,
+        projectileSize = 3,
+        fragment={
+            damage=200,
+            range=1000,
+            muzzleVel=1200,
+            color=0x4463d8,
+            roundsPerBurst=3,
+            spread=2.0944,
+            pattern=SPIRAL|ABSOLUTE,
+        },
+    },
+},
+
+{
     17919287,
     group=17919,
     features=LAUNCHER|PALETTE|LAUNCHER_BARRAGE,
@@ -5021,8 +5072,3 @@
         },
     },
 },
--- {
---     17919290,
---     extends=17919268,
---     shape=HEXAGON,
--- },
