@@ -329,10 +329,10 @@
 		position={0.1, 0.3},
 		radius={0.1, 0.16},
 		fleets={
-			{17905, { {1, 15000}, {1,2000} }},
+			{17905, { {3000, 15000}, {1,2000} }},
 		},
 		fortressCount={3, 8},
-		fleetFraction=0.8,
+		fleetFraction=0.7,
 		ambient={ 0,-1 },
 		unique={
 			{
