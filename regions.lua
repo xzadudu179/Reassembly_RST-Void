@@ -5,8 +5,8 @@
 {
 	fleets = {
 		{ 17912, { { 0, 5000 }, {1, 300} } },
-      	{ 17904, { { 0.5, 0}, { 0.51, 3000 }, {1, 500}}},
-      	{ 17902, { { 0.5, 0}, {0.7, 2000}, {0.9, 0} } },
+		{ 17904, { { 0.5, 0}, { 0.51, 3000 }, {1, 500}}},
+		{ 17902, { { 0.5, 0}, {0.7, 2000}, {0.9, 0} } },
 		{ 3, { { 0, 5000 }, {1, 300} } },
 		{ 2, { { 0.5, 0}, { 0.51, 3000 }, {1, 500}}},
 		{ 4, { { 0.5, 0}, {0.7, 2000}, {0.9, 0} } }
@@ -29,8 +29,8 @@
 			-- uniqueFraction=1,
 			fortress = {
 			-- {
-	 		-- 	"179999_^1[?????]^7,
-		 	-- },
+			-- 	"179999_^1[?????]^7,
+			-- },
 			},
 			fortressCount = 1,
 			fortressRadius = 500,
@@ -62,7 +62,7 @@
 			unique = { { "2_researchcenter1", "2_pstation1" }, { "2_pstation-spiralcircle1" } },
 			fortress = { "2_platform0", "2_platform1", "2_platform3" },
 			fortressCount = { 4, 5 },
-		 },
+		},
 
 		{
 			ident = 203,
@@ -76,7 +76,7 @@
 			fortress = { "4_platform0", "4_platform1" },
 			fortressCount = { 3, 4 },
 			fortressRadius = { 600, 700 },
-		 },
+		},
 
 		{
 		ident=117923,
@@ -325,7 +325,7 @@
 		{
 		ident=179055,
 		faction=17905,
-		count=3,
+		count=2,
 		position={0.1, 0.3},
 		radius={0.1, 0.16},
 		fleets={
@@ -456,8 +456,8 @@
 			color=0x1c5823,
 			faction=17916,
 			count=1,
-			position={0.3, 0.5},
-			radius={0.15, 0.2},
+			position={0.3, 0.4},
+			radius={0.1, 0.14},
 			fleets={
 				{17916, { {1, 25000}, {0,2000} }},
 			},
@@ -523,7 +523,7 @@
 		color=0x30ca09,
 		faction=17915,
 		count=3,
-		position={0.3, 0.6},
+		position={0.4, 0.6},
 		radius={0.1, 0.25},
 		fleets={
 			{17915, { {0, 15000}, {1, 5000} }},
@@ -694,7 +694,7 @@
 			color=0xf274bb,
 			faction=17998,
 			count=4,
-			position={0.3, 0.8},
+			position={0.7, 0.9},
 			radius={0.1, 0.15},
 			type=0,
 			fleets={

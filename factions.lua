@@ -213,15 +213,16 @@
 	179103 = {
 		name=_("...00KF"),
 		primaries=1,
-		color0=0x4232c9,
+		color0=0x62e2f9,
+		color1=0xedfcba,
 		aiflags=AGGRESSIVE|WANDER|CAUTIOUS,
 	},
 
 	179104 = {
 		name=_("....雾帆"),
 		primaries=2,
-		color0=0xaaaaaa,
-		color1=0xd71313,
+		color0=0xd71313,
+		color1=0xaaaaaa,
 		aiflags=AGGRESSIVE|WANDER|RECKLESS,
 	}
 
