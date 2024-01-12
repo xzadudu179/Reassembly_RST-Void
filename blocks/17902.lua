@@ -2684,7 +2684,7 @@
 {
     17902150,
     extends=150000,
-    features=COMMAND|REGROWER|PERISHABLE|FREERES|GENERATOR,
+    features=COMMAND|REGROWER|PERISHABLE|FREERES|GENERATOR|NOPALETTE,
     group=17902,
     command={
         flags=SMART_FIRE,
@@ -2696,14 +2696,14 @@
     scale=1,
     name=_("Aerial Vehicle Core"),
     blurb=_("The core of the unmanned aerial vehicle will be activated when it is launched, and the Nixite core will \"grow\" an entire aircraft instantly. After that, it cannot be repaired. \n^5It will self-destruct after 45 seconds.^7"),
-    --lifetime=45123123,
+    lifetime=45123123,
     generatorCapacityPerSec=200,
     powerCapacity=600,
 },
 {
     17902177,
     extends=150000,
-    features=COMMAND|REGROWER|FREERES|GENERATOR|PALETTE,
+    features=COMMAND|REGROWER|FREERES|GENERATOR|NOPALETTE,
     group=17902,
     command={
         flags=ALWAYS_KITE,
@@ -2715,7 +2715,7 @@
     scale=1,
     name=_("Aerial Vehicle Core /KITE AND MANEUVER/"),
     blurb=_("The core of the unmanned aerial vehicle will be activated when it is launched, and the Nixite core will \"grow\" an entire aircraft instantly. After that, it cannot be repaired. \n^5It will self-destruct after 45 seconds.^7"),
-    --lifetime=45123123,
+    lifetime=45123123,
     generatorCapacityPerSec=200,
     powerCapacity=600,
 },
@@ -2723,14 +2723,14 @@
 {
     17902151,
     extends=150002,
-    features=FREERES|PALETTE,
+    features=FREERES|NOPALETTE,
     shape=1179105,
     scale=1,
     growRate=18,
     name=_("Aerial Vehicle Hull"),
-    --blurb=_("Structural hull, can provide effective armor"),
-    blurb="警告:此组件用于舰载机，请勿使用于舰船",
-    --lifetime=45123123,
+    blurb=_("Structural hull, can provide effective armor"),
+
+    lifetime=45123123,
 },
 
 {
@@ -3011,8 +3011,8 @@
 {
     17902200,
     group=17902,
-    features=THRUSTER|FREERES|PALETTE,
-    name=_("Mini-Thruster"),blurb="警告:此组件用于舰载机，请勿使用于舰船",
+    features=THRUSTER|FREERES|NOPALETTE,
+    name=_("Mini-Thruster"),
     blurb=_("Flamethrower - mimics the technology of Spiky Plant"),
     shape=1179112,
     scale=1,
@@ -3021,7 +3021,7 @@
     fillColor1=0x004d8f,
     lineColor=0x02bbdf,
     thrusterForce=15000,
-    --lifetime=45123123,
+    lifetime=45123123,
     thrusterBoost=1,
     thrusterColor=0x2a37b9de,
     thrusterColor1=0x4eb237de,
@@ -3043,8 +3043,8 @@
 {
     17902203,
     group=17902,
-    features=CANNON|TURRET|FREERES|PALETTE,
-    name="UAV-CANNON",blurb="警告:此组件用于舰载机，请勿使用于舰船",
+    features=CANNON|TURRET|FREERES|NOPALETTE,
+    name="UAV-CANNON",
     shape=1179105,
     scale=1,
     fillColor=0x292929,
@@ -3054,7 +3054,7 @@
     durability=2.5,
     density=0.25,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     bindingId=4,
     cannon={
         damage=25,
@@ -3073,9 +3073,9 @@
 {
     17902204,
     group=17902,
-    features=CANNON|TURRET|FREERES|PALETTE,
+    features=CANNON|TURRET|FREERES|NOPALETTE,
     name="UAV-CANNON-MKII",
-    blurb="警告:此组件用于舰载机，请勿使用于舰船",
+
     shape=1179105,
     scale=2,
     fillColor=0x292929,
@@ -3085,7 +3085,7 @@
     durability=2.5,
     density=0.25,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     bindingId=4,
     cannon={
         damage=70,
@@ -3104,9 +3104,9 @@
 {
     17902205,
     group=17902,
-    features=LASER|TURRET|FREERES|PALETTE,
+    features=LASER|TURRET|FREERES|NOPALETTE,
     name="REPAIR-LASER",
-    blurb="警告:此组件用于舰载机，请勿使用于舰船",
+
     shape=1179105,
     scale=3,
     fillColor=0x292929,
@@ -3116,7 +3116,7 @@
     durability=2.5,
     density=0.15,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     bindingId=1,
     laser={
         damage=-100,
@@ -3133,9 +3133,9 @@
 {
     17902206,
     group=17902,
-    features=LASER|TURRET|FREERES|PALETTE,
+    features=LASER|TURRET|FREERES|NOPALETTE,
     name="POINT-DEFENSE-LASER",
-    blurb="警告:此组件用于舰载机，请勿使用于舰船",
+
     shape=1179105,
     scale=2,
     fillColor=0x292929,
@@ -3145,7 +3145,7 @@
     durability=2.5,
     density=0.15,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     bindingId=5,
     laser={
         damage=45,
@@ -3161,9 +3161,9 @@
 {
     17902207,
     group=17902,
-    features=FREERES|PALETTE,
+    features=FREERES|NOPALETTE,
     name="Container",
-    blurb="警告:此组件用于舰载机，请勿使用于舰船",
+
     shape=1179105,
     scale=1,
     fillColor=0x292929,
@@ -3173,15 +3173,15 @@
     durability=2.5,
     density=0.18,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     capacity=200,
 },
 
 {
     17902208,
     group=17902,
-    features=LAUNCHER|FREERES|PALETTE,
-    name="LAUNCHER",blurb="警告:此组件用于舰载机，请勿使用于舰船",
+    features=LAUNCHER|FREERES|NOPALETTE,
+    name="LAUNCHER",
     shape=1179113,
     scale=1,
     fillColor=0x004d8f,
@@ -3191,7 +3191,7 @@
     durability=2.5,
     density=0.18,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     bindingId=5,
     capacity=0,
     replicateBlock={
@@ -3221,8 +3221,8 @@
 {
     17902210,
     group=17902,
-    features=LAUNCHER|FREERES|PALETTE,
-    name="ROCKET-LAUNCHER",blurb="警告:此组件用于舰载机，请勿使用于舰船",
+    features=LAUNCHER|FREERES|NOPALETTE,
+    name="ROCKET-LAUNCHER",
     shape=1179113,
     scale=2,
     fillColor=0x004d8f,
@@ -3232,7 +3232,7 @@
     durability=2.5,
     density=0.18,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     bindingId=5,
     capacity=0,
     replicateBlock={
@@ -3262,8 +3262,8 @@
 {
     17902209,
     group=17902,
-    features=TRACTOR|FREERES|PALETTE,
-    name="Tractor",blurb="警告:此组件用于舰载机，请勿使用于舰船",
+    features=TRACTOR|FREERES|NOPALETTE,
+    name="Tractor",
     shape=1179105,
     scale=1,
     fillColor=0x163147,
@@ -3273,7 +3273,7 @@
     durability=3,
     density=0.15,
     growRate=18,
-    --lifetime=45123123,
+    lifetime=45123123,
     capacity=100,
     tractorRange=400,
 },
