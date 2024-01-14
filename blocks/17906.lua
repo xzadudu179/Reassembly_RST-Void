@@ -1660,7 +1660,7 @@
     {size={5,3},offset={3, 0, 0.1},taper=1,count=1,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=TRI,}
     {size={3,1},offset={-1, 0, 0.05},taper=1, count=1,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE,}
     }
-    points=7,
+    points=0,
     durability=0.5,
     density=0.09,
     growRate=50,
@@ -1687,7 +1687,7 @@
     fillColor=0xf7b024,
     fillColor1=0xffdd9a,
     lineColor=0x6b6b6b,
-    points=12,
+    points=0,
     durability=0.5,
     density=0.09,
     growRate=50,
@@ -1714,7 +1714,7 @@
     fillColor=0xf7b024,
     fillColor1=0xffdd9a,
     lineColor=0x6b6b6b,
-    points=17,
+    points=0,
     durability=0.5,
     density=0.09,
     growRate=50,
@@ -1741,7 +1741,7 @@
     fillColor=0xf7b024,
     fillColor1=0xffdd9a,
     lineColor=0x6b6b6b,
-    points=24,
+    points=0,
     durability=0.5,
     density=0.09,
     growRate=50,

@@ -3061,7 +3061,7 @@
             spread=3.14,
             roundsPerBurst=30,
             burstyness=1,
-            color=0x067d65,
+            color=0x06bd55,
         },
     },
     replicateTime=1.1,

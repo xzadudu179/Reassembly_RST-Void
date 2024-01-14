@@ -1295,7 +1295,7 @@
     fillColor=0x292929,
     fillColor1=0x575757,
     lineColor=0x02bbdf,
-    points=1600,
+    points=0,
     durability=2,
     density=0.2,
     growRate=5,

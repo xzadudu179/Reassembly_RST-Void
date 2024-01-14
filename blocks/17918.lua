@@ -1959,7 +1959,7 @@
     durability=1.5,
     density=0.125,
     growRate=30,
-     
+
     capacity=0,
     laser={
         damage=-0.0,
@@ -1984,7 +1984,7 @@
     durability=8,
     density=0.1225,
     growRate=3,
-     
+
     meleeDamage=15,
     capacity=0,
 },
@@ -2003,7 +2003,7 @@
     durability=8,
     density=0.1225,
     growRate=3,
-     
+
     meleeDamage=15,
     capacity=0,
 },
@@ -2022,7 +2022,7 @@
     durability=8,
     density=0.1225,
     growRate=3,
-     
+
     meleeDamage=15,
     capacity=0,
 },
@@ -2041,7 +2041,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     sound=Ascot3,
     capacity=0,
     cannon={
@@ -2072,7 +2072,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     sound=Ascot3,
     barrelSize={0.01,0.01},
@@ -2128,7 +2128,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     sound=Ascot3,
     capacity=0,
     cannon={
@@ -2159,7 +2159,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     sound=Ascot3,
     cannon={
@@ -2190,7 +2190,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     sound=Ascot3,
     cannon={
@@ -2221,7 +2221,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     sound=Ascot3,
     capacity=0,
     cannon={
@@ -2254,7 +2254,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     sound=Ascot3,
     capacity=0,
     cannon={
@@ -2284,7 +2284,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         power={1.5, 0},
@@ -2306,7 +2306,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         damage={1.5, 0},
@@ -2328,7 +2328,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         explodeRadius={1.5, 10},
@@ -2350,7 +2350,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         power={1.1, 0},
@@ -2372,7 +2372,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         muzzleVel={1.2, 100},
@@ -2394,7 +2394,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         muzzleVel={1.5, 500},
@@ -2416,7 +2416,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         power={1.5, 0},
@@ -2438,7 +2438,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         power={1.9, 0},
@@ -2460,7 +2460,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         explodeRadius={2, 10},
@@ -2482,7 +2482,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannonBoost={
         damage={2.6, 0},
@@ -2504,7 +2504,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=250,
     photosynthPerSec=0.1,
     generatorCapacityPerSec=120,
@@ -2525,7 +2525,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=1000,
     photosynthPerSec=0.5,
     generatorCapacityPerSec=500,
@@ -2546,7 +2546,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=2000,
     tractorRange=1600,
 },
@@ -2565,7 +2565,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=2250,
     photosynthPerSec=1,
     generatorCapacityPerSec=800,
@@ -2587,7 +2587,7 @@
     density=0.12,
     growRate=3,
     points=120,
-     
+
     capacity=0,
     cannonBoost={
         power={0.5, 1},
@@ -2608,7 +2608,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     points=200,
     capacity=0,
     cannonBoost={
@@ -2630,13 +2630,13 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     laser={
         damage=95,
         power=15,
         range=1100,
-        width=9,
+        width=4,
         color=0x8200feff,
         decay=0.56,
     },
@@ -2657,13 +2657,13 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     laser={
         damage=180,
         power=15,
         range=1400,
-        width=9,
+        width=4,
         color=0x8000feff,
         decay=0.56,
     },
@@ -2685,13 +2685,13 @@
     density=0.12,
     growRate=3,
     bindingId=5,
-     
+
     capacity=0,
     laser={
         damage=190,
         power=2,
         range=800,
-        width=2,
+        width=1,
         color=0x6600dcff,
         decay=0.1,
     },
@@ -2713,13 +2713,13 @@
     bindingId=5,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     laser={
         damage=110,
         power=1,
         range=600,
-        width=2,
+        width=1,
         color=0x6600dcff,
         decay=0.2,
     },
@@ -2740,13 +2740,13 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     laser={
         damage=400,
         power=1,
         range=1800,
-        width=8,
+        width=4,
         color=0x99ff6300,
         decay=0.4,
     },
@@ -2767,13 +2767,13 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     laser={
         damage=2500,
         power=145,
         range=2000,
-        width=18,
+        width=5,
         color=0x66ff0000,
         decay=0.2,
     },
@@ -2795,7 +2795,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannon={
         damage=0,
@@ -2929,7 +2929,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     cannon={
         damage=0,
@@ -3061,7 +3061,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     replicateBlock={
         group=17918,
@@ -3089,7 +3089,7 @@
             damage=100,
             power=1,
             range=400,
-            width=5,
+            width=2,
             color=0x8a007cff,
             decay=0.5,
         },
@@ -3114,7 +3114,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=0,
     replicateBlock={
         group=17918,
@@ -3154,7 +3154,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     shield={
         strength=400,
         regen=50,
@@ -3181,7 +3181,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     shield={
         strength=1200,
         regen=80,
@@ -3208,7 +3208,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     shield={
         strength=4000,
         regen=1200,
@@ -3235,7 +3235,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=500,
 },
 
@@ -3253,7 +3253,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=500,
     thrusterForce=19000,
     thrusterColor=0x4c00fff9,
@@ -3274,7 +3274,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=500,
     thrusterForce=39000,
     thrusterColor=0x4c00fff9,
@@ -3295,7 +3295,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=500,
     thrusterForce=89000,
     thrusterColor=0x4c00fff9,
@@ -3317,7 +3317,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=500,
     thrusterForce=65000,
     thrusterColor=0x4c00fff9,
@@ -3339,7 +3339,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=500,
     thrusterForce=125000,
     thrusterColor=0x4c00fff9,
@@ -3361,7 +3361,7 @@
     durability=1,
     density=0.12,
     growRate=3,
-     
+
     capacity=500,
     thrusterForce=250000,
     thrusterColor=0x4c00fff9,
@@ -3382,7 +3382,7 @@
     durability=2,
     density=0.16,
     growRate=3,
-     
+
     capacity=500,
     thrusterForce=1250000,
     thrusterColor=0x4c00fff9,

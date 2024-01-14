@@ -22,7 +22,7 @@
 "Terra"="泰拉族",
 "Backbones"="子系统-膂",
 "Pilgrims"="朝圣者",
-"Leviathan"="利维坦",
+"Leviathan Tribe"="利维坦族群",
 "Ectoplasm Lairdweller"="灵戌",
 "^3X-A Hatchery Consciousness^7"="^3X-A母巢意识^7"
 "Wind Catcher"="捕风者"

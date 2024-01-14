@@ -36,7 +36,7 @@
 		aiflags=AGGRESSIVE|CAUTIOUS|DODGES|FLOCKING|FORGIVING|PEACEFUL|SMART_FIRE|SOCIAL|SPREAD_FIRE|WANDER,
 	},
 
-		17905 = {
+	17905 = {
 		name=_("Legion"),
 		playable=3,
 		start="17905_萨蒂安I",
@@ -94,7 +94,7 @@
 	-- 	aiflags=BAD_AIM|CAUTIOUS|DODGES|FLOCKING|FORGIVING|HATES_PLANTS|METAMORPHOSIS|SOCIAL|SPREAD_FIRE|TRACTOR_TRANSIENT|WANDER,
 	-- },
 
-		17910 = {
+	17910 = {
 		name=_("Ghost"),
 		primaries=2,
 		color0=0x656565,
@@ -102,7 +102,7 @@
 		aiflags=CAUTIOUS|DODGES|FORGIVING|METAMORPHOSIS|WANDER,
 	},
 
-	    17912 = {
+	17912 = {
 		name=_("Adamantite"),
 		start="17912_守护者",
 		color0=0xd47351,
@@ -110,7 +110,7 @@
 		aiflags=AGGRESSIVE|FLOCKING|FORGIVING|METAMORPHOSIS|RECKLESS|SOCIAL|WANDER,
 	},
 
-		17914 = {
+	17914 = {
 		name=_("Terra"),
 		start="17914_^6守护者-火种",
 		primaries=3,
@@ -121,7 +121,7 @@
 		aiflags=CAUTIOUS|DODGES|FLOCKING|FORGIVING|METAMORPHOSIS|PEACEFUL|RIPPLE_FIRE|SMART_FIRE|WANDER,
 	},
 
-		17906 = {
+	17906 = {
 		name=_("Revitalizer"),
 		start="17906_拾光者",
 		primaries=2,
@@ -131,7 +131,7 @@
 		aiflags=CAUTIOUS|DODGES|FLOCKING|PEACEFUL|SOCIAL|TRACTOR_TRANSIENT|WANDER,
 	},
 
-		17915 = {
+	17915 = {
 		name=_("Backbones"),
 		playable=3,
 		start="17915_“锥”战机EXTRA",
@@ -169,7 +169,7 @@
 	-- },
 
 	17918 = {
-		name=_("Leviathan"),
+		name=_("Leviathan Tribe"),
 		--playable=1,
 		start="17918_^5海妖-克拉肯^7",
 		primaries=3,

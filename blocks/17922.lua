@@ -35,7 +35,7 @@
     lineColor=0x0077c8,
     durability=2,
     density=0.08,
-    points=250,
+    points=0,
     growRate=15,
     capacity=0,
     aihint_range=900,
@@ -55,7 +55,7 @@
             spread=3.14,
             damage=80,
             range=100,
-            pattern=SPIRAL,	
+            pattern=SPIRAL,
             color=0x0476ff,
             explosive=FRAG_FINAL,
             fragment={
