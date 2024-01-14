@@ -354,7 +354,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=300,
 },
 
@@ -372,7 +372,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=1750,
 },
 
@@ -390,7 +390,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=3500,
 },
 
@@ -408,7 +408,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=0,
     generatorCapacityPerSec=3,
     powerCapacity=6,
@@ -433,7 +433,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=0,
     thrusterForce=12000,
     thrusterBoost=6,
@@ -456,7 +456,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=0,
     generatorCapacityPerSec=9,
     powerCapacity=18,
@@ -481,7 +481,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=0,
     thrusterForce=40000,
     thrusterBoost=6,
@@ -504,7 +504,7 @@
     durability=1.4,
     density=0.15,
     growRate=8,
-     
+
     capacity=0,
     generatorCapacityPerSec=20,
     powerCapacity=40,
@@ -530,7 +530,7 @@
     density=0.15,
     growRate=8,
     activatePower=250,
-     
+
     capacity=0,
     thrusterForce=600000,
     thrusterBoost=2,
@@ -553,7 +553,7 @@
     durability=1.3,
     density=0.15,
     growRate=5,
-     
+
     capacity=0,
     generatorCapacityPerSec=80,
     powerCapacity=200,
@@ -573,7 +573,7 @@
     durability=1.3,
     density=0.15,
     growRate=4.5,
-     
+
     capacity=0,
     generatorCapacityPerSec=400,
     powerCapacity=900,
@@ -593,7 +593,7 @@
     durability=1.4,
     density=0.2,
     growRate=5,
-     
+
     shield={
         strength=800,
         regen=200,
@@ -620,7 +620,7 @@
     durability=1.4,
     density=0.2,
     growRate=5,
-     
+
     shield={
         strength=700,
         regen=50,
@@ -647,7 +647,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+
     capacity=0,
     laser={
         damage=100,
@@ -684,7 +684,7 @@
         {size={18,3},offset={2, 0, 0.27},taper=1,count=1,angle=0,tri_color_id=1,tri_color1_id=0,line_color_id=2,shape=RHOMBUS_36_144}
         }
     growRate=5,
-     
+
     capacity=0,
     barrelCount=3,
     barrelSize={10, 2}
@@ -716,7 +716,7 @@
     density=0.21,
     points=1000,
     growRate=4,
-     
+
     capacity=0,
     laser={
         damage=7500,
@@ -744,7 +744,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+
     capacity=0,
     replicateBlock={
         group=17998,
@@ -789,7 +789,7 @@
     durability=1.5,
     density=0.15,
     growRate=5,
-     
+
     capacity=0,
     turretSpeed=3,
     replicateBlock={
@@ -843,7 +843,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1000,7 +1000,7 @@
             {
             damage=60,power=1,range=1200,roundsPerSec=1,muzzleVel=1800,color=0xc4c661e1,explosive=ENABLED,explodeRadius=30,projectileSize=4}
             }
-}	
+}
 
 {
     17998042,
@@ -1016,7 +1016,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1062,7 +1062,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1108,7 +1108,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-     
+
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1158,7 +1158,7 @@
     durability=1.5,
     density=1,
     growRate=5,
-     
+
     capacity=0,
 },
 
@@ -1383,7 +1383,7 @@
 
 {
     17998054,
-    group=17998,    
+    group=17998,
     features=PALETTE,
     name="架构模块",
     blurb="基础船体 ^3构造等级：^1低^7",
@@ -1695,7 +1695,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-    
+
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1756,7 +1756,7 @@
     durability=1.5,
     density=0.21,
     growRate=5,
-    
+
     capacity=0,
     replicateBlock={
         group=17998,
@@ -1810,7 +1810,7 @@
             explodeDamage=30,
             explodeRadius=30,
             }
-        
+
         }
     replicateTime=8,
     launcherPower=80,

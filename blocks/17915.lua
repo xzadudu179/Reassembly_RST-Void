@@ -1474,7 +1474,7 @@
     shape=SQUARE,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x9ffb99,
     points=0,
     durability=4,
@@ -1493,7 +1493,7 @@
     shape=SQUARE,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x9ffb99,
     points=0,
     durability=4,
@@ -1512,7 +1512,7 @@
     shape=RIGHT_TRI,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x9ffb99,
     points=0,
     durability=4,
@@ -1531,7 +1531,7 @@
     shape=RIGHT_TRI,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x9ffb99,
     points=0,
     durability=4,
@@ -1550,7 +1550,7 @@
     shape=1752,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x02bf00,
     points=0,
     durability=4,
@@ -1576,7 +1576,7 @@
         durability=1,
         density=0.1,
         growRate=0.7,
-         
+
         lifetime=100,
         seedLifetime=120,
         launchSpeed=200,
@@ -1609,7 +1609,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
 },
@@ -1629,7 +1629,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
 },
@@ -1649,7 +1649,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
 },
@@ -1669,7 +1669,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
     photosynthPerSec=0.2,
@@ -1690,7 +1690,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
     photosynthPerSec=0.2,
@@ -1711,7 +1711,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
     photosynthPerSec=0.5,
@@ -1732,7 +1732,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
     tractorRange=0,
@@ -1753,7 +1753,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
     tractorRange=0,
@@ -1774,7 +1774,7 @@
     durability=1,
     density=0.1,
     growRate=7,
-     
+
     lifetime=100,
     capacity=0,
     tractorRange=0,
@@ -2050,13 +2050,13 @@
     shape=SQUARE,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2068,13 +2068,13 @@
     shape=SQUARE,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2086,13 +2086,13 @@
     shape=SQUARE,
     scale=3,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2105,13 +2105,13 @@
     shape=1729,
     scale=3,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2123,13 +2123,13 @@
     shape=1729,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2141,13 +2141,13 @@
     shape=1729,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2160,13 +2160,13 @@
     shape=1730,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2178,13 +2178,13 @@
     shape=1730,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2196,13 +2196,13 @@
     shape=1730,
     scale=3,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2215,13 +2215,13 @@
     shape=RIGHT_TRI,
     scale=3,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2233,13 +2233,13 @@
     shape=RIGHT_TRI,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2251,13 +2251,13 @@
     shape=RIGHT_TRI,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2270,13 +2270,13 @@
     shape=RIGHT_TRI2L,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2288,13 +2288,13 @@
     shape=RIGHT_TRI2L,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2307,13 +2307,13 @@
     shape=RIGHT_TRI2R,
     scale=3,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2326,13 +2326,13 @@
     shape=RIGHT_TRI2L,
     scale=3,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2345,13 +2345,13 @@
     shape=RIGHT_TRI2R,
     scale=2,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2363,13 +2363,13 @@
     shape=RIGHT_TRI2R,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2382,13 +2382,13 @@
     shape=1740,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2401,13 +2401,13 @@
     shape=TRI,
     scale=1,
     fillColor=0x6c6c6c,
-    fillColor1=0x565656,
+    fillColor1=0x464646,
     lineColor=0x2f5626,
     points=0,
     durability=8,
     density=0.3,
     growRate=8,
-     
+
     capacity=0,
 },
 
@@ -2437,19 +2437,20 @@
         {size={0.5,0.5},offset={3, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=SQUARE}
         {size={0.5,0.5},offset={4, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=SQUARE}
         }
-     
+
     bindingId=1,
     capacity=0,
     cannon={
-        damage=60,
-        power=45,
-        roundsPerSec=1,
-        muzzleVel=1600,
-        range=1100,
+        damage=30,
+        power=28,
+        roundsPerSec=3,
+        muzzleVel=1100,
+        range=1000,
         color=0xf1ca47,
-        explosive=FINAL,
-        explodeRadius=50,
+        explosive=ENABLED,
+        explodeRadius=20,
     },
+    barrelSize={7,1.5},
     turretSpeed=4,
 },
 
@@ -2468,7 +2469,6 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
     bindingId=1,
     shroud={
         {size={7.2,8},offset={0, 0, 0.33},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=HEXAGON}
@@ -2483,15 +2483,16 @@
         }
     capacity=0,
     cannon={
-        damage=110,
-        power=155,
-        roundsPerSec=0.7,
-        muzzleVel=1800,
+        damage=40,
+        power=60,
+        roundsPerSec=2,
+        muzzleVel=1500,
         range=1600,
         color=0xf1ca47,
-        explosive=FINAL,
-        explodeRadius=40,
+        explosive=ENABLED,
+        explodeRadius=35,
     },
+    barrelSize={13,2.5},
     turretSpeed=3,
 },
 
@@ -2522,7 +2523,7 @@
         {size={0.5,2},offset={3, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
         {size={0.5,2},offset={4, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
         }
-     
+
     bindingId=1,
     capacity=0,
     cannon={
@@ -2530,12 +2531,13 @@
         power=30,
         roundsPerSec=2,
         muzzleVel=1100,
-        range=1300,
-        spread=0.08,
+        range=900,
+        spread=0.03,
         color=0x7ea774,
-        explosive=ENABLED,
+        explosive=PROXIMITY,
         explodeRadius=22,
     },
+    barrelSize={6,1.3},
     turretSpeed=5,
 },
 
@@ -2566,20 +2568,21 @@
         {size={1,4},offset={6, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
         {size={1,4},offset={8, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
         }
-     
+
     bindingId=1,
     capacity=0,
     cannon={
-        damage=300,
+        damage=125,
         power=200,
         roundsPerSec=0.8,
         muzzleVel=1300,
-        range=1500,
-        spread=0.1,
+        range=1200,
+        spread=0.02,
         color=0x7ea774,
-        explosive=ENABLED,
+        explosive=PROXIMITY,
         explodeRadius=40,
     },
+    barrelSize={12,3},
     turretSpeed=2,
 },
 
@@ -2615,22 +2618,22 @@
         {size={0.5,2},offset={3, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=HEXAGON}
         {size={0.5,2},offset={4, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=HEXAGON}
         }
-     
+
     bindingId=1,
     capacity=0,
     cannon={
         damage=30,
         power=145,
         roundsPerSec=3,
-        muzzleVel=1800,
-        range=1600,
+        muzzleVel=1500,
+        range=1500,
         roundsPerBurst=6,
         burstyness=0.8,
         color=0x7ea774,
         explosive=ENABLED,
-        explodeRadius=15,
     },
     turretSpeed=5,
+    barrelSize={6,1.5},
 },
 
 {
@@ -2665,21 +2668,21 @@
         {size={1,4},offset={6, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=HEXAGON}
         {size={1,4},offset={8, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=HEXAGON}
         }
-     
+
     bindingId=1,
     capacity=0,
     cannon={
         damage=90,
-        power=445,
+        power=50,
         roundsPerSec=2,
-        muzzleVel=2000,
-        range=2100,
+        muzzleVel=1800,
+        range=1800,
         roundsPerBurst=4,
         burstyness=0.6,
         color=0x326a24,
         explosive=ENABLED,
-        explodeRadius=20,
     },
+    barrelSize={12,2},
     turretSpeed=3,
 },
 
@@ -2698,15 +2701,15 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=1,
     capacity=0,
     cannon={
-        damage=120,
+        damage=100,
         power=25,
         roundsPerSec=2,
         muzzleVel=1000,
-        range=1500,
+        range=1200,
         roundsPerBurst=3,
         burstyness=0.6,
         color=0x326a24,
@@ -2731,18 +2734,17 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
     bindingId=1,
     capacity=0,
     cannon={
-        damage=40,
-        power=25,
-        roundsPerSec=15,
+        damage=50,
+        power=22,
+        roundsPerSec=10,
         muzzleVel=1100,
-        range=1500,
+        range=1300,
         spread=0.07,
         roundsPerBurst=3,
-        burstyness=0,
+        burstyness=0.6,
         color=0x326a24,
     },
     turretSpeed=3,
@@ -2763,15 +2765,27 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+    shroud={
+        {size={7.2*2,7.5*2},offset={4, 0, 0.33},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=HEXAGON}
+        {size={10,10},offset={1, 0, 0.31},taper=1,count=1,angle=1.0475,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=HEXAGON}
+        {size={7.2*2,7.5*2},offset={5, 0, 0.34},taper=1,count=1,angle=0,tri_color_id=1,tri_color1_id=0,line_color_id=2,shape=TRI}
+        {size={7.2,7.5},offset={5, 0, 0.35},taper=1,count=1,angle=1.0475,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
+        {size={7.2*0.8,7.5*0.8},offset={5, 0, 0.36},taper=1,count=1,angle=1.0475,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=TRI}
+        {size={8,1},offset={2, 0, 0.32},taper=1,count=2,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=SQUARE}
+        {size={8,0.12},offset={2, 0, 0.32},taper=1,count=2,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=SQUARE}
+        {size={1,4},offset={12, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=TRI}
+        {size={1,4},offset={14, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
+        {size={1,4},offset={16, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
+        {size={1,4},offset={18, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=2,shape=TRI}
+        }
     bindingId=1,
     capacity=0,
     cannon={
-        damage=135,
-        power=70,
-        roundsPerSec=2,
-        muzzleVel=2100,
-        range=1900,
+        damage=90,
+        power=100,
+        roundsPerSec=3,
+        muzzleVel=1500,
+        range=1800,
         spread=0.07,
         roundsPerBurst=5,
         burstyness=0.6,
@@ -2797,7 +2811,7 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=5,
     capacity=0,
     laser={
@@ -2825,7 +2839,7 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=5,
     capacity=0,
     laser={
@@ -2853,7 +2867,7 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=4,
     capacity=0,
     cannon={
@@ -2885,7 +2899,7 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=1,
     capacity=0,
     cannon={
@@ -2916,7 +2930,7 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=1,
     capacity=0,
     cannon={
@@ -2947,14 +2961,14 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=1,
     sound=rail,
     capacity=0,
     laser={
         damage=200,
         power=200,
-        range=1800,
+        range=1500,
         width=8,
         decay=0.7,
         color=0xffff4100,
@@ -2981,7 +2995,7 @@
     durability=3,
     density=0.2,
     growRate=6,
-     
+
     bindingId=1,
     capacity=0,
     cannon={
@@ -3008,11 +3022,10 @@
     fillColor=0x6c6c6c,
     fillColor1=0x7ea774,
     lineColor=0x46b83f,
-    points=250,
+    points=0,
     durability=3,
     density=0.2,
     growRate=6,
-     
     bindingId=2,
     capacity=0,
     replicateBlock={
