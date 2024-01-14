@@ -233,8 +233,8 @@
 
 	179999 = {
 		name=_("^1???^7"),
-		primaries=3,
-		aiflags=AGGRESSIVE|WANDER|TRACTOR_TRANSIENT,
+		primaries=0,
+		aiflags=AGGRESSIVE,
 	}
 
 	17998 = {
