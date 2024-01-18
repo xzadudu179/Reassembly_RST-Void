@@ -28,7 +28,7 @@
 
     17904 = {
         name=_("Fungi"),
-        playable=3,
+        playable=1,
         start="17904_战菌",
         explosionColor0=0xbdc7c3,
         explosionColor1=0x677c74,
@@ -38,7 +38,7 @@
 
     17905 = {
         name=_("Legion"),
-        playable=3,
+        playable=1,
         start="17905_萨蒂安I",
         color0=0x5fead1,
         color1=0x393a3a,
@@ -125,7 +125,7 @@
         name=_("Revitalizer"),
         start="17906_拾光者",
         primaries=2,
-        playable=3,
+        playable=1,
         color0=0xe17411,
         color1=0xb3b3b3,
         aiflags=CAUTIOUS|DODGES|FLOCKING|PEACEFUL|SOCIAL|TRACTOR_TRANSIENT|WANDER,
@@ -133,9 +133,9 @@
 
     17915 = {
         name=_("Backbones"),
-        playable=3,
+        playable=1,
         start="17915_“锥”战机EXTRA",
-        primaries=3,
+        primaries=1,
         color0=0x696969,
         color1=0x02a300,
         color2=0xbbbbbb,
@@ -146,7 +146,7 @@
 
     17916 = {
         name=_("FXTY100101"),
-        playable=3,
+        playable=1,
         start="17916_^2MILK系统",
         color0=0x5a9085,
         color1=0x0a8d12,
@@ -252,7 +252,7 @@
 
     17919 = {
         name=_("^5The Lost^7"),
-        playable=3,
+        playable=1,
         start="17919_^5Kikemira^7-^8协作子机^7",
         primaries=3,
         color0=0x1a285f,
