@@ -40,7 +40,7 @@
     points=30,
     durability=20,
     density=1500,
-    capacity=200,
+    capacity=1200,
     tractorRange=1000,
     generatorCapacityPerSec=150,
     powerCapacity=450,
@@ -1647,7 +1647,7 @@
     density=0.16,
     growRate=5,
     armor=1,
-    capacity=200,
+    capacity=100,
 },
 
 {
