@@ -1213,7 +1213,7 @@
     capacity=0,
     cannon={
         damage=50,
-        power=15,
+        power=8,
         roundsPerSec=8,
         muzzleVel=900,
         range=1200,
@@ -1295,7 +1295,7 @@
     fillColor=0x292929,
     fillColor1=0x575757,
     lineColor=0x02bbdf,
-    points=0,
+    points=164,
     durability=2,
     density=0.2,
     growRate=5,
@@ -1320,14 +1320,12 @@
     capacity=0,
     barrelSize={1,1}
     cannon={
-        damage=600,
-        power=1000,
+        damage=800,
+        power=800,
         roundsPerSec=0.5,
         muzzleVel=1600,
-        range=1700,
-        spread=0.18,
-        explodeRadius=110,
-        explosive=ENABLED,
+        range=3000,
+        spread=0.04,
         roundsPerBurst=1,
         burstyness=1,
         color=0x004d8f,
@@ -1375,10 +1373,10 @@
     capacity=0,
     cannon={
         damage=200,
-        power=75,
+        power=150,
         roundsPerSec=3,
         muzzleVel=2000,
-        range=2200,
+        range=2500,
         spread=0,
         roundsPerBurst=4,
         burstyness=0.6
@@ -1413,7 +1411,7 @@
     capacity=0,
     cannon={
         damage=100,
-        power=20,
+        power=40,
         roundsPerSec=10,
         muzzleVel=5000,
         recoil=0,
@@ -1428,7 +1426,7 @@
     150080,
     extends=150061,
     name=_("TAR-3 directional triple firing electromagnetic gun"),
-    points=590,
+    points=0,
     shroud={
         {size={20,20},offset={5, 0, 0.1},taper=1,count=1,angle=3.14,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=RHOMBUS_36_144,}
         {size={12,5},offset={0, 5, 0.09},taper=1,count=1,angle=0,tri_color_id=1,tri_color1_id=1,line_color_id=2,shape=RHOMBUS_36_144}
@@ -1439,7 +1437,7 @@
         }
     cannon={
         damage=100,
-        power=20,
+        power=40,
         roundsPerSec=30,
         muzzleVel=5000,
         range=3000,
@@ -1588,7 +1586,7 @@
     capacity=0,
     cannon={
         damage=50,
-        power=10,
+        power=20,
         recoil=0,
         roundsPerSec=10,
         muzzleVel=4000,
@@ -1857,7 +1855,7 @@
     density=0.16,
     growRate=5,
     armor=1,
-    capacity=800,
+    capacity=400,
 },
 
 {
@@ -1876,7 +1874,7 @@
     density=0.16,
     growRate=5,
     armor=1,
-    capacity=2000,
+    capacity=500,
 },
 
 {
@@ -2215,7 +2213,7 @@
     fillColor=0x004d8f,
     fillColor1=0x004d8f,
     lineColor=0x02bbdf,
-    thrusterForce=1000000,
+    thrusterForce=800000,
     thrusterBoost=1,
     thrusterColor=0x2eff8d09,
     thrusterColor1=0xe3b237de,
@@ -2233,7 +2231,7 @@
     fillColor1=0x004d8f,
     activatePower=800,
     lineColor=0x02bbdf,
-    thrusterForce=5000000,
+    thrusterForce=1300000,
     thrusterBoost=1,
     thrusterColor=0x2aff8d09,
     thrusterColor1=0x92b237de,
@@ -3170,7 +3168,7 @@
     density=0.18,
     growRate=18,
     lifetime=45123123,
-    capacity=200,
+    capacity=100,
 },
 
 {
