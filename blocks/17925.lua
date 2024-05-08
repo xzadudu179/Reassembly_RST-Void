@@ -1438,8 +1438,8 @@
     armor=3,
     capacity=0,
     cannon={
-        damage=25,power=11,range=650,rangeStdDev=650,muzzleVel=1200,recoil=0,roundsPerSec=64,roundsPerBurst=100,burstyness=1,color=0x21ededed,explosive=ENABLED,explodeRadius=30,spread=0,pattern=ABSOLUTE,projectileSize=5,
-        fragment={damage=15,range=4,muzzleVel=1,color=0x59ededed,explosive=ENABLED,explodeRadius=30,pattern=ABSOLUTE,spread=0,projectileSize=4,
+        damage=25,	power=11,	range=650,	rangeStdDev=650,	muzzleVel=1200,	recoil=0,	roundsPerSec=64,	roundsPerBurst=100,	burstyness=1,	color=0x21ededed,	explosive=ENABLED,	explodeRadius=30,	spread=0,	pattern=ABSOLUTE,	projectileSize=5,
+        fragment={damage=15,	range=4,	muzzleVel=1,	color=0x59ededed,	explosive=ENABLED,	explodeRadius=30,	pattern=ABSOLUTE,	spread=0,	projectileSize=4,
         },
     },
     turretSpeed=4,
@@ -1463,13 +1463,13 @@
     armor=3,
     capacity=0,
     cannon={
-        damage=480,power=120,range=500,muzzleVel=1500,recoil=0.60,roundsPerSec=0.7,explodeRadius=40,color=0xee5b14,explosive=FRAG_FINAL,spread=0.02,pattern=RANDOM,projectileSize=7,
-        fragment={damage=480,range=120,muzzleVel=1200,color=0xee5b14,explosive=FRAG_FINAL,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=480,range=100,muzzleVel=800,color=0xee5b14,explosive=FRAG_FINAL,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=480,range=70,muzzleVel=400,color=0xee5b14,explosive=FRAG_FINAL,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=480,range=40,muzzleVel=200,color=0xee5b14,pattern=ABSOLUTE,explodeRadius=40,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=100,range=4,muzzleVel=800,color=0xd16c2d,explosive=ENABLED,explodeRadius=40,pattern=SPIRAL,spread=0.8,projectileSize=5,roundsPerBurst=5,
-        fragment={damage=60,range=3,muzzleVel=2,color=0xd16c2d,explosive=ENABLED,explodeRadius=40,pattern=SPIRAL,spread=3.14,projectileSize=5,roundsPerBurst=3,
+        damage=480,	power=120,	range=500,	muzzleVel=1500,	recoil=0.60,	roundsPerSec=0.7,	explodeRadius=40,	color=0xee5b14,	explosive=FRAG_FINAL,	spread=0.02,	pattern=RANDOM,	projectileSize=7,
+        fragment={damage=480,	range=120,	muzzleVel=1200,	color=0xee5b14,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=7,	roundsPerBurst=1,
+        fragment={damage=480,	range=100,	muzzleVel=800,	color=0xee5b14,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=7,	roundsPerBurst=1,
+        fragment={damage=480,	range=70,	muzzleVel=400,	color=0xee5b14,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=7,	roundsPerBurst=1,
+        fragment={damage=480,	range=40,	muzzleVel=200,	color=0xee5b14,	pattern=ABSOLUTE,	explodeRadius=40,	spread=0,	projectileSize=7,	roundsPerBurst=1,
+        fragment={damage=100,	range=4,	muzzleVel=800,	color=0xd16c2d,	explosive=ENABLED,	explodeRadius=40,	pattern=SPIRAL,	spread=0.8,	projectileSize=5,	roundsPerBurst=5,
+        fragment={damage=60,	range=3,	muzzleVel=2,	color=0xd16c2d,	explosive=ENABLED,	explodeRadius=40,	pattern=SPIRAL,	spread=3.14,	projectileSize=5,	roundsPerBurst=3,
         },
         },
         }
@@ -1498,24 +1498,16 @@
     armor=3,
     capacity=0,
     cannon={
-        damage=480,power=120,range=500,muzzleVel=1500,recoil=0.60,roundsPerSec=0.7,color=0xee5b14,explodeRadius=40,explosive=FRAG_FINAL,spread=0.02,pattern=RANDOM,projectileSize=7,
-        fragment={damage=480,range=120,muzzleVel=1200,color=0xee5b14,explosive=FRAG_FINAL,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=480,range=100,muzzleVel=800,color=0xee5b14,explosive=FRAG_FINAL,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=480,range=70,muzzleVel=400,color=0xee5b14,explosive=FRAG_FINAL,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=480,range=10,muzzleVel=200,color=0xee5b14,pattern=ABSOLUTE,explodeRadius=40,spread=0,projectileSize=7,roundsPerBurst=1,
-        fragment={damage=100,range=4,muzzleVel=800,color=0xd16c2d,explosive=ENABLED,explodeRadius=40,pattern=SPIRAL,spread=0.8,projectileSize=5,roundsPerBurst=5,
-        fragment={damage=80,range=1,muzzleVel=2,color=0xd16c2d,explosive=FRAG_FINAL,explodeRadius=40,pattern=SPIRAL,spread=1.57,projectileSize=5,roundsPerBurst=2,
-        fragment={damage=80,range=1,muzzleVel=1,color=0xd16c2d,explosive=FRAG_FINAL,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=5,roundsPerBurst=1,
-        fragment={damage=80,range=700,muzzleVel=500,color=0xd16c2d,explosive=ENABLED,explodeRadius=40,pattern=ABSOLUTE,spread=0,projectileSize=5,roundsPerBurst=1,
-        },
-        },
-        },
-        },
-        },
-        },
-        },
-        },
-        
+        damage=480,	power=120,	range=500,	muzzleVel=1500,	recoil=0.60,	roundsPerSec=0.7,	color=0xee5b14,	explodeRadius=40,	explosive=FRAG_FINAL,	spread=0.02,	pattern=RANDOM,	projectileSize=7,
+            fragment={damage=480,	range=120,	muzzleVel=1200,	color=0xee5b14,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=7,	roundsPerBurst=1,
+            fragment={damage=480,	range=100,	muzzleVel=800,	color=0xee5b14,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=7,	roundsPerBurst=1,
+            fragment={damage=480,	range=70,	muzzleVel=400,	color=0xee5b14,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=7,	roundsPerBurst=1,
+            fragment={damage=480,	range=10,	muzzleVel=200,	color=0xee5b14,	                        explodeRadius=40,	pattern=ABSOLUTE,	spread=0,   projectileSize=7,	roundsPerBurst=1,
+            fragment={damage=100,	range=4,	muzzleVel=800,	color=0xd16c2d,	explosive=ENABLED,	    explodeRadius=40,	pattern=SPIRAL,	    spread=0.8,	projectileSize=5,	roundsPerBurst=5,
+            fragment={damage=80,	range=1,	muzzleVel=2,	color=0xd16c2d,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=SPIRAL,	    spread=1.57,projectileSize=5,	roundsPerBurst=2,
+            fragment={damage=80,	range=1,	muzzleVel=1,	color=0xd16c2d,	explosive=FRAG_FINAL,	explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=5,	roundsPerBurst=1,
+            fragment={damage=80,	range=700,	muzzleVel=500,	color=0xd16c2d,	explosive=ENABLED,	    explodeRadius=40,	pattern=ABSOLUTE,	spread=0,	projectileSize=5,	roundsPerBurst=1,
+            }}}}}}}}
     },
     turretSpeed=4,
 },
@@ -1534,7 +1526,7 @@
     durability=1.5,
     density=0.21,
     growRate=4,
-     
+
     capacity=0,
     laser={
         damage=450,
@@ -1561,7 +1553,7 @@
     durability=1.5,
     density=0.21,
     growRate=4,
-     
+
     capacity=0,
     laser={
         damage=60,
