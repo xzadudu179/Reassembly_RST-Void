@@ -2,7 +2,7 @@
 
 ## Reassembly-RST-Void
 
-An REA _(Reassembly)_ mod made by my self
+An REASSEMBLY mod made by my self
 
 ## 前言
 
@@ -10,7 +10,9 @@ An REA _(Reassembly)_ mod made by my self
 
 ---
 
-这个 mod 主要是用于生涯，以及娱乐，并不属于外貌型或强度型 mod。由于刚刚做出这个 mod 时我还是个萌新，会有很多需要改进的地方，我会在以后慢慢地补充。
+- 这是一个 REASSEMBLY (重组) 的 mod
+- 这个 mod 主要是用于生涯，以及娱乐，并不属于外貌型或强度型 mod。由于刚刚做出这个 mod 时我还是个萌新，会有很多需要改进的地方，我会在以后慢慢地补充。
+- 如果你不知道 REASSEMBLY 是什么，可以查看 [Anisoptera Games官网](https://www.anisopteragames.com/)
 
 ## 内容简介
 
@@ -18,14 +20,9 @@ An REA _(Reassembly)_ mod made by my self
 
 RST-重组-虚空是一个多种族的长期更新的游戏 mod，基于游戏 Reassembly 制作，由于该游戏制作 mod 极为简单，所以可以在 README 中就写下游戏 mod 一些零件或者种族的制作方法~
 
-### 模组目前(截至 2023/06/30)有这些内容：
-
-### 首先是预览图：
-
-![Preview](preview.png)
-
-(由于预览图一般是在游戏里当一个较小的图标使用，所以压缩了大小)
-
+## 使用该 MOD (windows)
+1. 将本仓库 `clone` 或下载源代码文件夹复制到 `C:\Users\[你的用户名]\Saved Games\Reassembly\mods\` 路径下
+2. 进入 / 重新进入游戏
 ---
 
 ## 关于游戏 mod 制作：
