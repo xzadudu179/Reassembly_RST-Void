@@ -2,7 +2,7 @@
 
 ## Reassembly-RST-Void
 
-An REASSEMBLY mod made by my self
+An REASSEMBLY mod made by xzadudu179
 
 ## 前言
 
