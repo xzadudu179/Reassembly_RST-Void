@@ -1,6 +1,6 @@
 {
 "Respawning..." = "生成核心……",
-"Destroyed" = "核心故障——被摧毁",
+"Destroyed" = "被摧毁",
 "Destroyed %s" = "已摧毁 %s 的核心",
 "Destroyed %s's fleet" = "已摧毁 %s的母舰",
 "%s was destroyed" = "%s 核心已被摧毁",
