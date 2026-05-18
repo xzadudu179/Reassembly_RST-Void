@@ -1,7 +1,7 @@
 {
     17919000,
     group=17919,
-    features=ASSEMBLER|AUTOFIRE|COMMAND|GENERATOR|LASER|SHIELD|TRACTOR|TURRET,
+    features=ASSEMBLER|AUTOFIRE|COMMAND|GENERATOR|LASER|SHIELD|TRACTOR|TURRET|NOPALETTE,
     name=_("复苏核心"),
     blurb=_("在一次奇怪的能量波冲击中复原的失落者核心，领地内只有少量失落者舰船被复原，剩下还有大量舰船和建筑处于废弃状态。\n失落者的核心使用失落者曾经的科技，拥有护盾发生器和点防御激光。"),
     shape=1179117,
@@ -45,7 +45,7 @@
 {
     17919001,
     group=17919,
-    features=AUTOFIRE|COMMAND|PALETTE|GENERATOR|NORECOLOR|LASER|SHIELD|TRACTOR|TURRET|PERSISTENT,
+    features=AUTOFIRE|COMMAND|NOPALETTE|GENERATOR|NORECOLOR|LASER|SHIELD|TRACTOR|TURRET|PERSISTENT,
     name=_("失落核心"),
     blurb=_("失去了主AI连线的失落核心，早已被岁月侵蚀，或许还有激活那些古老飞船的可能？"),
     shape=1179117,
@@ -89,7 +89,7 @@
 {
     17919002,
     group=17919,
-    features=COMMAND|PALETTE|GENERATOR|NORECOLOR|TRACTOR|TURRET|PERSISTENT,
+    features=COMMAND|NOPALETTE|GENERATOR|NORECOLOR|TRACTOR|TURRET|PERSISTENT,
     name=_("失落空间核心"),
     blurb=_("曾经的空间站核心，长久的未维修状态导致内部系统崩溃。"),
     shape=1179119,
@@ -115,7 +115,7 @@
 {
     17919003,
     group=17919,
-    features=ASSEMBLER|COMMAND|GENERATOR|PALETTE|TRACTOR|TURRET,
+    features=ASSEMBLER|COMMAND|GENERATOR|NOPALETTE|TRACTOR|TURRET,
     name=_("复苏空间核心"),
     blurb=_("空间站所用的核心，被一种不知名的力量唤醒"),
     shape=1179119,
@@ -3532,6 +3532,25 @@
     growRate=5,
     generatorCapacityPerSec=-300,
     powerCapacity=40000,
+},
+
+{
+    17919291,
+    group=17919,
+    features=GENERATOR|PALETTE,
+    name=_("能量发生反应堆-I型"),
+    blurb=_("能够源源不断生产能量的机械，需要维修才能保持最大产能"),
+    shape=HEXAGON,
+    scale=1,
+    fillColor=0xe0e1ce,
+    fillColor1=0xbabb9e,
+    lineColor=0x24346e,
+    points=0,
+    durability=2.2,
+    density=0.2,
+    growRate=5,
+    generatorCapacityPerSec=500,
+    powerCapacity=1400,
 },
 
 {

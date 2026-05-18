@@ -5,6 +5,7 @@
 "Destroyed %s's fleet" = "已摧毁 %s的母舰",
 "%s was destroyed" = "%s 核心已被摧毁",
 "%s was destroyed by %s" = "%s 核心已被 %s摧毁",
+"R Collection Speed" = "R 收集速度"
 -- void部分 ---
 -- 种族 --
 "Revitalizer"="复活者",
