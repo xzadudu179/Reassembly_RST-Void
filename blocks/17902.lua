@@ -1217,7 +1217,7 @@
         roundsPerSec=8,
         muzzleVel=900,
         range=1200,
-        spread=0.12,
+        spread=0.03,
         roundsPerBurst=3,
         burstyness=0.5,
         color=0x004d8f,
