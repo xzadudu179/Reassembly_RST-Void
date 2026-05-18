@@ -110,6 +110,6 @@ kReadZipFiles = 1
 kRedumpShips = 1
 kSplashAnimTime = 5
 kWatchdogTimeout = 1000
-kRadFrag ={roundsPerSec=28,roundsPerBurst=8,explosive=FRAG_FINAL|FRAG_IMPACT,pattern=SPIRAL,burstyness=1,muzzleVel=500,spread=2.094,rangeStdDev=500,damage=400,range=2500,color=0xe04020,fragment={roundsPerBurst=5,pattern=SPIRAL,muzzleVel=700,spread=1.047,rangeStdDev=100,damage=200,range=1000,color=0xf05050}} 
+kRadFrag ={roundsPerSec=5,roundsPerBurst=8,explosive=FRAG_FINAL|FRAG_IMPACT,pattern=SPIRAL,burstyness=1,muzzleVel=500,spread=2.094,rangeStdDev=500,damage=100,range=2500,color=0xe04020,fragment={roundsPerBurst=5,pattern=SPIRAL,muzzleVel=700,spread=1.047,rangeStdDev=100,damage=200,range=1000,color=0xf05050}} 
 
 kTournamentDumpHtml = 1

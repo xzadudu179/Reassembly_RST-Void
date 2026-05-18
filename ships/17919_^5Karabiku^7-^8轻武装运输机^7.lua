@@ -1,7 +1,6 @@
 
-{data={name="^5Karabiku^7-^8轻武装运输机^7", author="Xzadudu179", color0=0x1a285f,
-    color1=0x2e5969, color2=0xe0e1ce, wgroup={0, 0, 2, 0}}, blocks={
-    {0x1116c18, {-21.68, 0}, features=COMMAND|GENERATOR|TURRET|LASER|AUTOFIRE|SHIELD|ASSEMBLER|TRACTOR|UNIQUE|NOPALETTE},
+{blocks={
+    {0x1116c18, {-21.68, 0}, bindingId=0},
     {0x1116c1f, {-24.181, -38.971}, 2.094},
     {0x1116c2d, {-65.43, 10.826}, 2.618},
     {0x1116c2a, {-55.43, 28.146}, -0.524},
