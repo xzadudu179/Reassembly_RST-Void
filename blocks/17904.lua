@@ -445,7 +445,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*4,
 },
 
 {
@@ -559,7 +559,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*9,
 },
 
 {
@@ -578,7 +578,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*16,
 },
 
 {
@@ -597,7 +597,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*25,
 },
 
 {
@@ -616,7 +616,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*36,
 },
 
 {
@@ -627,6 +627,7 @@
     features=PALETTE|NOCLIP_ALLY|INTLINES,
     fillColor=0x32524e,
     fillColor1=0x546975,
+    capacity=0,
     scale=2,
 }
 
@@ -666,9 +667,9 @@
     fillColor1=0x32524e,
     lineColor=0x60ffcf,
     points=0,
-    durability=3,
-    density=0.7,
-    growRate=6,
+    durability=1,
+    density=1.7,
+    growRate=2,
     armor=2,
     capacity=5000,
     generatorCapacityPerSec=10000,
@@ -687,11 +688,11 @@
     fillColor1=0x32524e,
     lineColor=0x60ffcf,
     points=0,
-    durability=3,
-    density=0.7,
-    growRate=6,
+    durability=1,
+    density=1.7,
+    growRate=2,
     armor=2,
-    capacity=5000,
+    capacity=300,
     generatorCapacityPerSec=600,
     powerCapacity=1500,
 },
@@ -714,15 +715,17 @@
     armor=2,
     capacity=0,
     cannon={
-        damage=500,
-        power=200,
+        damage=900,
+        power=500,
         roundsPerSec=5,
+        roundsPerBurst=3,
+        burstyness=0.8,
         muzzleVel=1200,
         range=2000,
         spread=0.1,
         color=0x196c6f,
-        explosive=ENABLED,
-        explodeRadius=50,
+        -- explosive=ENABLED,
+        -- explodeRadius=50,
     },
     turretSpeed=1,
 },
@@ -989,7 +992,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*36/6,
 },
 
 {
@@ -1008,7 +1011,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*25/6,
 },
 
 {
@@ -1027,7 +1030,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*16/6,
 },
 
 {
@@ -1046,7 +1049,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*9/6,
 },
 
 {
@@ -1065,7 +1068,7 @@
     density=0.7,
     growRate=6,
     armor=2,
-    capacity=0,
+    capacity=80*4/6,
 },
 
 {
@@ -1570,14 +1573,23 @@
     fillColor1=0x2a4045,
     lineColor=0x60ffcf,
     durability=1,
-    capacity=350,
+    capacity=500,
 },
 
 {
     11799248,
     extends=11799064,
     scale=2
-    capacity=350*4,
+    capacity=500*4,
+    durability=1,
+},
+
+{
+    11799249,
+    extends=11799064,
+    scale=3
+    capacity=500*9,
+    durability=1,
 },
 
 {
@@ -1799,7 +1811,7 @@
         powerCapacity=600,
     },
     replicateTime=14,
-    launcherPower=200,
+    launcherPower=400,
     launcherOutSpeed=200,
 },
 
@@ -2237,7 +2249,7 @@
         generatorCapacityPerSec=500,
     },
     replicateTime=18,
-    launcherPower=300,
+    launcherPower=800,
     launcherOutSpeed=150,
 },
 
@@ -2275,7 +2287,7 @@
         generatorCapacityPerSec=500,
     },
     replicateTime=22,
-    launcherPower=3000,
+    launcherPower=7000,
     launcherOutSpeed=325,
 },
 

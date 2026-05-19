@@ -46,7 +46,7 @@
     lineColor=0x7df0e3,
     durability=2,
     density=0.2,
-    growRate=2,
+    growRate=12,
     capacity=2000,
 },
 
@@ -62,7 +62,7 @@
     lineColor=0x7df0e3,
     durability=2,
     density=0.2,
-    growRate=2,
+    growRate=12,
     capacity=800,
 },
 
@@ -78,7 +78,7 @@
     lineColor=0x7df0e3,
     durability=2,
     density=0.2,
-    growRate=2,
+    growRate=12,
     capacity=200,
 },
 
