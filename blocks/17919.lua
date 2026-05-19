@@ -2502,7 +2502,7 @@
     density=0.32,
     aihint_range=1300,
     growRate=2.67,
-    points=1800
+    points=2750
     shroud={
         {size={19.16858*1.7,22*1.7},offset={13, 0, 0.33},taper=1,count=1,angle=0,tri_color_id=0,tri_color1_id=1,line_color_id=2,shape=HEXAGON}
         {size={19.16858*2.5,22*2.5},offset={13, 0, 0.31},taper=1,count=1,angle=0,tri_color_id=2,tri_color1_id=2,line_color_id=1,shape=HEXAGON}
@@ -2519,7 +2519,7 @@
     capacity=0,
     cannon={
         damage=1,
-        power=1000,
+        power=5000,
         roundsPerSec=0.1,
         recoil=0,
         muzzleVel=1200,
@@ -2527,7 +2527,7 @@
         spread=0,
         color=0x343a8b,
         fragment={damage=1,range=0,muzzleVel=4000,color=0x00343a8b,pattern=ABSOLUTE|SPIRAL,spread=2.618,roundsPerBurst=6,
-        fragment={damage=1,range=1200,muzzleVel=4000,color=0x00343a8b,pattern=ABSOLUTE,spread=0,roundsPerBurst=40,rangeStdDev=1200,
+        fragment={damage=1,range=1200,muzzleVel=4000,color=0x00343a8b,pattern=ABSOLUTE,spread=0,roundsPerBurst=25,rangeStdDev=1200,
         fragment={damage=50,range=0,muzzleVel=4000,color=0x00343a8b,pattern=ABSOLUTE|CONSTANT,spread=1.047,roundsPerBurst=1,
         fragment={damage=60,range=800,muzzleVel=4000,color=0x01343a8b,pattern=ABSOLUTE,spread=0,roundsPerBurst=25,rangeStdDev=800,
         fragment={damage=300,range=10,muzzleVel=1,color=0x01343a8b,pattern=ABSOLUTE,spread=0,roundsPerBurst=1,explosive=ENABLED,explodeRadius=40,

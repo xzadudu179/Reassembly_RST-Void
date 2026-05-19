@@ -51,7 +51,7 @@
 {
     17914179,
     group=17914,
-    features=PALETTE|CANNON|ALWAYSFIRE,
+    features=NOPALETTE|CANNON|ALWAYSFIRE,
     name=_("光之护盾"),
     blurb=_("奇异的魔法构造，能将光球环绕在其身旁,可作为一种极高效的反导措施。不同于一般的护盾，它激活时需要不停消耗魔力。^3构造等级：^2高^7\n^1警告：使用前务必先保存舰船^7"),
     shape=1729,
@@ -83,7 +83,7 @@
           damage=25,
           muzzleVel=4000,
           range=456,
-          spread=2.618, 
+          spread=2.618,
           roundsPerBurst=6,
           projectileSize=0,
           pattern=SPIRAL|ABSOLUTE,
@@ -116,7 +116,7 @@
 {
     17914180,
     group=17914,
-    features=PALETTE|CANNON|ALWAYSFIRE,
+    features=NOPALETTE|CANNON|ALWAYSFIRE,
     name=_("光之护盾"),
     blurb=_("奇异的魔法构造，能将光球环绕在其身旁,可作为一种极高效的反导措施。不同于一般的护盾，它激活时需要不停消耗魔力。^3构造等级：^2高^7\n^1警告：使用前务必先保存舰船^7"),
     shape=1730,
@@ -148,7 +148,7 @@
           damage=25,
           muzzleVel=4000,
           range=456,
-          spread=2.618, 
+          spread=2.618,
           roundsPerBurst=6,
           projectileSize=0,
           pattern=SPIRAL|ABSOLUTE,
@@ -181,7 +181,7 @@
 {
     17914181,
     group=17914,
-    features=PALETTE|CANNON|ALWAYSFIRE,
+    features=NOPALETTE|CANNON|ALWAYSFIRE,
     name=_("光之护盾"),
     blurb=_("奇异的魔法构造，能将光球环绕在其身旁,可作为一种极高效的反导措施。不同于一般的护盾，它激活时需要不停消耗魔力。^3构造等级：^2高^7\n^1警告：使用前务必先保存舰船^7"),
     shape=1729,
@@ -213,7 +213,7 @@
           damage=50,
           muzzleVel=4000,
           range=800,
-          spread=2.618, 
+          spread=2.618,
           roundsPerBurst=6,
           projectileSize=0,
           pattern=SPIRAL|ABSOLUTE,
@@ -248,7 +248,7 @@
 {
     17914182,
     group=17914,
-    features=PALETTE|CANNON|ALWAYSFIRE,
+    features=NOPALETTE|CANNON|ALWAYSFIRE,
     name=_("光之护盾"),
     blurb=_("奇异的魔法构造，能将光球环绕在其身旁,可作为一种极高效的反导措施。不同于一般的护盾，它激活时需要不停消耗魔力。^3构造等级：^2高^7\n^1警告：使用前务必先保存舰船^7"),
     shape=1730,
@@ -280,7 +280,7 @@
           damage=50,
           muzzleVel=4000,
           range=800,
-          spread=2.618, 
+          spread=2.618,
           roundsPerBurst=6,
           projectileSize=0,
           pattern=SPIRAL|ABSOLUTE,
@@ -1092,7 +1092,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1112,7 +1112,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1132,7 +1132,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1152,7 +1152,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1172,7 +1172,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1192,7 +1192,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1212,7 +1212,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1232,7 +1232,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1252,7 +1252,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1272,7 +1272,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1292,7 +1292,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1312,7 +1312,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1332,7 +1332,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1352,7 +1352,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1372,7 +1372,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1392,7 +1392,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1412,7 +1412,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1432,7 +1432,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1452,7 +1452,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1472,7 +1472,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1492,7 +1492,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1512,7 +1512,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1532,7 +1532,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1552,7 +1552,7 @@
     density=0.11,
     growRate=70,
     armor=10,
-    
+
     capacity=0,
 },
 
@@ -1862,7 +1862,7 @@
     features=PALETTE|CANNON,
     name="魔力炮塔构建装置基座",
     blurb="构造台基座",
-    shape=1747,	
+    shape=1747,
     scale=1,
     fillColor=0x51685f,
     fillColor1=0x51685f,
@@ -1889,7 +1889,7 @@
     features=PALETTE|CANNON,
     name="魔力炮塔构建装置基座-三散射",
     blurb="构造台基座",
-    shape=1747,	
+    shape=1747,
     scale=1,
     fillColor=0x51685f,
     fillColor1=0x51685f,
@@ -1919,7 +1919,7 @@
     features=PALETTE|CANNON,
     name="魔力炮塔构建装置基座-⑨散射",
     blurb="构造台基座",
-    shape=1747,	
+    shape=1747,
     scale=1,
     fillColor=0x51685f,
     fillColor1=0x51685f,
@@ -1949,7 +1949,7 @@
     features=PALETTE|CANNON,
     name="魔力炮塔构建装置基座-五散射",
     blurb="构造台基座",
-    shape=1747,	
+    shape=1747,
     scale=1,
     fillColor=0x51685f,
     fillColor1=0x51685f,
@@ -1979,7 +1979,7 @@
     features=NOPALETTE|CANNON,
     name="魔力炮塔构建装置基座-爆炸",
     blurb="构造台基座",
-    shape=1747,	
+    shape=1747,
     scale=1,
     fillColor=0x51685f,
     fillColor1=0x51685f,
