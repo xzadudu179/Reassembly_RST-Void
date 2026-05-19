@@ -10,8 +10,8 @@
             attribute float Size;
             uniform float ToPixels, EyeZ;
             void main(void) {
-                DestinationColor = min(1.9 * SourceColor, 1.7);
-                gl_PointSize = 5 * Size * ToPixels;
+                DestinationColor = min(1.9 * SourceColor, 1);
+                gl_PointSize = min(5 * Size * ToPixels, 100);
                 gl_Position = Transform * Position;
                 seed = 0.2 * fract(Position.z);
         }",
