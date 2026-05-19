@@ -249,22 +249,22 @@
     shroud={
         {size={10,0.2},
          offset={-2.5, 3, 0},
-         taper=1, 
+         taper=1,
          count=1
         angle=0,
-         tri_color_id=2, 
+         tri_color_id=2,
          tri_color1_id=2,
-         line_color_id=2, 
+         line_color_id=2,
         shape=SQUARE,
         }
         {size={10,0.2},
          offset={-2.5, -3, 0},
-         taper=1, 
+         taper=1,
          count=1
         angle=0,
-         tri_color_id=2, 
+         tri_color_id=2,
          tri_color1_id=2,
-         line_color_id=2, 
+         line_color_id=2,
         shape=SQUARE,
         }
         }
@@ -328,22 +328,22 @@
     shroud={
         {size={20,0.2},
          offset={-5, 6, 0},
-         taper=1, 
+         taper=1,
          count=1
         angle=0,
-         tri_color_id=2, 
+         tri_color_id=2,
          tri_color1_id=2,
-         line_color_id=2, 
+         line_color_id=2,
         shape=SQUARE,
         }
         {size={20,0.2},
          offset={-5, -6, 0},
-         taper=1, 
+         taper=1,
          count=1
         angle=0,
-         tri_color_id=2, 
+         tri_color_id=2,
          tri_color1_id=2,
-         line_color_id=2, 
+         line_color_id=2,
         shape=SQUARE,
         }
         }
@@ -356,22 +356,22 @@
     shroud={
         {size={30,0.2},
          offset={-7.5, 9, 0},
-         taper=1, 
+         taper=1,
          count=1
         angle=0,
-         tri_color_id=2, 
+         tri_color_id=2,
          tri_color1_id=2,
-         line_color_id=2, 
+         line_color_id=2,
         shape=SQUARE,
         }
         {size={30,0.2},
          offset={-7.5, -9, 0},
-         taper=1, 
+         taper=1,
          count=1
         angle=0,
-         tri_color_id=2, 
+         tri_color_id=2,
          tri_color1_id=2,
-         line_color_id=2, 
+         line_color_id=2,
         shape=SQUARE,
         }
         }
@@ -1679,7 +1679,7 @@
         durability=1,
         lifetime=5,
         density=0.1,
-         
+
         thrusterForce=4000,
         thrusterColor=0xab24a8a8,
         thrusterColor1=0x3b61d1c7,
@@ -1729,7 +1729,7 @@
         scale=2,
         lifetime=13,
         density=0.2,
-         
+
         thrusterForce=4500,
         thrusterColor=0xab24a8a8,
         thrusterColor1=0xff61d1c7,
@@ -1743,7 +1743,7 @@
     launcherPower=80,
     launcherOutSpeed=0,
     },
-    
+
     {
     1790574,
     group=17905,
@@ -1806,7 +1806,7 @@
 {
     1790575,
     group=17905,
-    features=PALETTE|CHARGING|LASER|TURRET,
+    features=PALETTE|LASER|TURRET,
     name=_("Savannah II - focused laser"),
     blurb=_("Advanced focus laser, can cause destructive damage to the enemy"),
     shape=SQUARE,
@@ -1814,7 +1814,7 @@
     fillColor=0x525252,
     fillColor1=0x2a2a2a,
     lineColor=0x66c9be,
-    points=1450,
+    points=800,
     durability=2,
     density=0.2,
     growRate=3,
@@ -1827,18 +1827,18 @@
         }
     capacity=0,
     laser={
-        damage=1500,
-        power=500,
+        damage=2000,
+        power=800,
         range=1800,
-        width=8,
+        width=4,
         color=0xab24a8a8,
         decay=0.4,
-        explosive=ENABLED,
-        explodeRadius=30,
+        -- explosive=ENABLED,
+        -- explodeRadius=30,
     },
     turretSpeed=2,
-    chargeMaxTime=1.2,
-    chargeMin=0.3,
+    -- chargeMaxTime=1.2,
+    -- chargeMin=0.3,
 },
 
 {
