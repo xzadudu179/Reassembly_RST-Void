@@ -1352,7 +1352,7 @@
     group=17904,
     features=PALETTE|LAUNCHER,
     name=_("Spores launcher"),
-    blurb=_("Used for planting, wait 40 seconds to harvest R"),
+    blurb=_("Used for planting fungi. Can harvest R after planting is complete."),
     shape=GEM_4_LAUNCHER,
     scale=2,
     fillColor=0x196c6f,
@@ -1365,8 +1365,9 @@
     armor=2,
     capacity=0,
     replicateBlock={
+        11799300,
         group=17904,
-        features=NOPALETTE|PHOTOSYNTH|SEED|THRUSTER|TORQUER,
+        features=NOPALETTE|PHOTOSYNTH|SEED|THRUSTER,
         name=_("Spore seed"),
         blurb=_("Spread spores and expand territory."),
         shape=SEED_3,
@@ -1374,19 +1375,20 @@
         fillColor1=0x546975,
         lineColor=0x60ffcf,
         command={
+            blueprint="17904_mushroom",
         },
-        growRate=0.5,
-        seedLifetime=40,
+        growRate=0.6,
+        seedLifetime=50,
         launchSpeed=125,
-        launchLifetime=40,
-        launchResources=20,
-        capacity=20,
+        launchLifetime=18,
+        launchResources=3,
+        capacity=12,
         photosynthPerSec=0.1,
         thrusterForce=1000,
         thrusterColor=0x3b61cbd1,
         thrusterColor1=0x4a39a274,
-        torquerTorque=4000,
     },
+    replicateTime=5,
     launcherPower=20,
     launcherOutSpeed=100,
 },
@@ -2031,6 +2033,22 @@
     growRate=5000,
     lifetime=45
 },
+
+{
+    11799301,
+    extends=11799087,
+    features=NOPALETTE|NOCLIP_ALLY,
+    growRate=6,
+},
+
+{
+    11799302,
+    extends=11799088,
+    features=NOPALETTE|NOCLIP_ALLY,
+    growRate=6,
+},
+
+
 
 {
     11799089,
