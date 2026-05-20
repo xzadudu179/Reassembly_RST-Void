@@ -11,15 +11,15 @@
     command={
         faction=17915,
     },
-    points=15,
+    points=0,
     durability=3,
     density=0.15,
     growRate=25,
     armor=3,
     bindingId=4,
     capacity=500,
-    generatorCapacityPerSec=125,
-    powerCapacity=375,
+    generatorCapacityPerSec=350,
+    powerCapacity=700,
     thrusterForce=4000,
     thrusterColor=0x66007cff,
     thrusterColor1=0x82ff6200,
@@ -733,7 +733,7 @@
     armor=3,
     capacity=0,
     thrusterForce=45000,
-    thrusterColor=0x8200ff19,
+    thrusterColor=0x2200ff19,
     thrusterColor1=0x82ff6200,
 },
 
@@ -755,7 +755,7 @@
     armor=3,
     capacity=0,
     thrusterForce=90000,
-    thrusterColor=0x8200ff19,
+    thrusterColor=0x2200ff19,
     thrusterColor1=0x82ff6200,
 },
 
@@ -777,7 +777,7 @@
     armor=3,
     capacity=0,
     thrusterForce=210000,
-    thrusterColor=0x8200ff19,
+    thrusterColor=0x2200ff19,
     thrusterColor1=0x82ff6200,
 },
 
@@ -799,7 +799,7 @@
     armor=3,
     capacity=0,
     thrusterForce=360000,
-    thrusterColor=0x8200ff19,
+    thrusterColor=0x2200ff19,
     thrusterColor1=0x82ff6200,
 },
 
@@ -821,7 +821,7 @@
     armor=3,
     capacity=0,
     thrusterForce=150000,
-    thrusterColor=0x8200ff19,
+    thrusterColor=0x2200ff19,
     thrusterColor1=0x82ff6200,
 },
 
@@ -843,7 +843,7 @@
     armor=3,
     capacity=0,
     thrusterForce=360000,
-    thrusterColor=0x8200ff19,
+    thrusterColor=0x2200ff19,
     thrusterColor1=0x82ff6200,
 },
 
@@ -865,7 +865,7 @@
     armor=3,
     capacity=0,
     thrusterForce=600000,
-    thrusterColor=0x8200ff19,
+    thrusterColor=0x2200ff19,
     thrusterColor1=0x82ff6200,
 },
 

@@ -352,7 +352,7 @@
                     "17905_克拉萨斯XIV货运船",
                 },
             },
-            uniqueFraction=0.05,
+            uniqueFraction=0.03,
             asteroidDensity={0, 0.2},
             asteroidSize={50, 125},
             asteroidFlags=PENROSE|SQUARE,
